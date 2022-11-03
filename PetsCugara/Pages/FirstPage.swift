@@ -57,8 +57,9 @@ struct FirstPage: View {
 						.padding(15)
 				}
 				
-				Button("Sim") {}
-				Button("Pular Tutorial") {}
+				Button("Sim") {}.foregroundColor(.black).padding(10)
+				
+				Button("Pular Tutorial") {}.foregroundColor(.black).padding(10)
 			}
 		}.ignoresSafeArea()
     }
