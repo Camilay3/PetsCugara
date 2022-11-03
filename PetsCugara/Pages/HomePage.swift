@@ -9,7 +9,7 @@ import SwiftUI
 
 struct HomePage: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+		Color(red: 145 / 255, green: 84 / 255, blue: 40 / 255)
     }
 }
 
