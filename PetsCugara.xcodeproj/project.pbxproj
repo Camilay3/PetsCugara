@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		866DD62229142C0700DB4835 /* TutOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866DD62129142C0700DB4835 /* TutOne.swift */; };
 		8674581529086E8E0041C0B1 /* PetsCugaraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8674581429086E8E0041C0B1 /* PetsCugaraApp.swift */; };
 		8674581729086E8E0041C0B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8674581629086E8E0041C0B1 /* ContentView.swift */; };
 		8674581929086E8F0041C0B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8674581829086E8F0041C0B1 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		866DD62129142C0700DB4835 /* TutOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutOne.swift; sourceTree = "<group>"; };
 		8674581129086E8E0041C0B1 /* PetsCugara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetsCugara.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8674581429086E8E0041C0B1 /* PetsCugaraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsCugaraApp.swift; sourceTree = "<group>"; };
 		8674581629086E8E0041C0B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,6 +44,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		866DD62029142BF500DB4835 /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				866DD62129142C0700DB4835 /* TutOne.swift */,
+			);
+			path = Tutorial;
+			sourceTree = "<group>";
+		};
 		8674580829086E8E0041C0B1 = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +92,7 @@
 		8674582229086F880041C0B1 /* Pages */ = {
 			isa = PBXGroup;
 			children = (
+				866DD62029142BF500DB4835 /* Tutorial */,
 				8674582329086FA50041C0B1 /* FirstPage.swift */,
 				8674582529086FB30041C0B1 /* HomePage.swift */,
 				8674582B290870910041C0B1 /* Banho */,
@@ -170,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8674582F290870BD0041C0B1 /* Cachorro.swift in Sources */,
+				866DD62229142C0700DB4835 /* TutOne.swift in Sources */,
 				8674581729086E8E0041C0B1 /* ContentView.swift in Sources */,
 				8674582D290870B20041C0B1 /* Gato.swift in Sources */,
 				8674581529086E8E0041C0B1 /* PetsCugaraApp.swift in Sources */,
