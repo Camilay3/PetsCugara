@@ -39,12 +39,11 @@ struct FirstPage: View {
 				
 				Text("Pets Cugara")
 					.bold()
-					.font(.largeTitle)
+					.font(.custom("Pulang", size: 40))
 					.multilineTextAlignment(.center)
 					.frame(width: 400, height: 227)
-					.position(x: 400/2, y: 227/2)
+					.position(x: 400/2, y: 235/2)
 					.foregroundColor(Color(red: 255/255, green: 183/255, blue: 98/255))
-//					.font("BubblegumSans-Regular")
 			}
 			
 			VStack{

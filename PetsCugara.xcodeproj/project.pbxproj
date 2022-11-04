@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8646293B29158F8D001FE1B0 /* Pulang.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8646293A29158EBF001FE1B0 /* Pulang.ttf */; };
 		866DD62229142C0700DB4835 /* TutOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866DD62129142C0700DB4835 /* TutOne.swift */; };
 		8674581529086E8E0041C0B1 /* PetsCugaraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8674581429086E8E0041C0B1 /* PetsCugaraApp.swift */; };
 		8674581729086E8E0041C0B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8674581629086E8E0041C0B1 /* ContentView.swift */; };
@@ -20,8 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		864629342915891B001FE1B0 /* Pulang.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Pulang.ttf; path = ../../../../../../Downloads/pulang/Pulang.ttf; sourceTree = "<group>"; };
 		8646293529158B1F001FE1B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8646293A29158EBF001FE1B0 /* Pulang.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Pulang.ttf; path = ../../../../../Downloads/pulang/Pulang.ttf; sourceTree = "<group>"; };
 		866DD62129142C0700DB4835 /* TutOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutOne.swift; sourceTree = "<group>"; };
 		8674581129086E8E0041C0B1 /* PetsCugara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetsCugara.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8674581429086E8E0041C0B1 /* PetsCugaraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsCugaraApp.swift; sourceTree = "<group>"; };
@@ -46,18 +47,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		86462932291588F6001FE1B0 /* Resources */ = {
+		8646293729158DF2001FE1B0 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				8646293329158907001FE1B0 /* Fonts */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		8646293329158907001FE1B0 /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				864629342915891B001FE1B0 /* Pulang.ttf */,
+				8646293A29158EBF001FE1B0 /* Pulang.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -89,8 +82,8 @@
 		8674581329086E8E0041C0B1 /* PetsCugara */ = {
 			isa = PBXGroup;
 			children = (
+				8646293729158DF2001FE1B0 /* Fonts */,
 				8646293529158B1F001FE1B0 /* Info.plist */,
-				86462932291588F6001FE1B0 /* Resources */,
 				8674582229086F880041C0B1 /* Pages */,
 				8674581429086E8E0041C0B1 /* PetsCugaraApp.swift */,
 				8674581629086E8E0041C0B1 /* ContentView.swift */,
@@ -188,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8674581C29086E8F0041C0B1 /* Preview Assets.xcassets in Resources */,
+				8646293B29158F8D001FE1B0 /* Pulang.ttf in Resources */,
 				86745833290879370041C0B1 /* mascote.png in Resources */,
 				8674581929086E8F0041C0B1 /* Assets.xcassets in Resources */,
 			);

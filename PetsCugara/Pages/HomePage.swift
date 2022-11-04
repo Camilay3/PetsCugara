@@ -27,10 +27,10 @@ struct HomePage: View {
 	
 					
 					Text("Tópicos")
+						.font(.custom("Pulang", size: 35))
 						.foregroundColor(Color(red: 68 / 255, green: 176 / 255, blue: 255 / 255))
 						.bold()
 						.padding(5)
-//						.font(.custom("Pulang", size: 20))
 						
 					Spacer()
 					
