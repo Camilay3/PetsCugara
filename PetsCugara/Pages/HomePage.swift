@@ -29,9 +29,9 @@ struct HomePage: View {
 					Text("Tópicos")
 						.foregroundColor(Color(red: 68 / 255, green: 176 / 255, blue: 255 / 255))
 						.bold()
-						.font(.largeTitle)
 						.padding(5)
-					
+//						.font(.custom("Pulang", size: 20))
+						
 					Spacer()
 					
 					// Transformar em botão
