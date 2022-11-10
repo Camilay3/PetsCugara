@@ -20,7 +20,7 @@ struct HomePage: View {
 					.position(x: 200, y: 90)
 				
 				HStack{
-					Image("mascote")
+					Image("lina")
 						.scaleEffect(0.5)
 						.frame(width: 60, height: 100)
 						.padding(10)

@@ -48,8 +48,9 @@ struct FirstPage: View {
 			
 			VStack{
 				HStack {
-					Image("mascote")
+					Image("lina")
 						.rotation3DEffect(.degrees(180), axis: (x: 0, y: 1, z: 0))
+						.frame(width: 60, height: 50)
 					
 					Text("- Bem vindo(a) ao Pets Cugara! Meu nome é Lina e vou ser seu guia! Gostaria de acessar o tutorial do nosso aplicativo?")
 						.foregroundColor(.white)
