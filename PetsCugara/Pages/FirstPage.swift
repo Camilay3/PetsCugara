@@ -51,14 +51,21 @@ struct FirstPage: View {
 					Image("mascote")
 						.rotation3DEffect(.degrees(180), axis: (x: 0, y: 1, z: 0))
 					
-					Text("- Bem vindo(a) ao Pets Cugara! Meu nome é lina e vou ser seu guia! Gostaria de acessar o tutorial do nosso aplicativo?")
+					Text("- Bem vindo(a) ao Pets Cugara! Meu nome é Lina e vou ser seu guia! Gostaria de acessar o tutorial do nosso aplicativo?")
 						.foregroundColor(.white)
 						.padding(15)
+						.font(.custom("pointfree", size: 18))
 				}
 				
-				Button("Sim") {}.foregroundColor(.black).padding(10)
+				Button("Sim") {}
+					.foregroundColor(.black)
+					.padding(10)
+					.font(.custom("pointfree", size: 18))
 				
-				Button("Pular Tutorial") {}.foregroundColor(.black).padding(10)
+				Button("Pular Tutorial") {}
+					.foregroundColor(.black)
+					.padding(10)
+					.font(.custom("pointfree", size: 18))
 			}
 		}.ignoresSafeArea()
     }

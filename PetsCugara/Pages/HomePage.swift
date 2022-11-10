@@ -54,7 +54,9 @@ struct HomePage: View {
 					
 					Button("Banho"){
 						print("certo")
-					}.foregroundColor(.white)
+					}
+						.foregroundColor(.white)
+						.font(.custom("pointfree", size: 18))
 					
 				}.position(x: 80, y: 230)
 			}

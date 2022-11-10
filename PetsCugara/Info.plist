@@ -5,6 +5,7 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>Pulang.ttf</string>
+		<string>pointfree.ttf</string>
 	</array>
 </dict>
 </plist>
