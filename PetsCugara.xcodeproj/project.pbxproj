@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		86183155291D66B600C659C6 /* pointfree.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86183154291D66B600C659C6 /* pointfree.ttf */; };
-		8646293B29158F8D001FE1B0 /* Pulang.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8646293A29158EBF001FE1B0 /* Pulang.ttf */; };
 		866DD62229142C0700DB4835 /* TutOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866DD62129142C0700DB4835 /* TutOne.swift */; };
 		8674581529086E8E0041C0B1 /* PetsCugaraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8674581429086E8E0041C0B1 /* PetsCugaraApp.swift */; };
 		8674581729086E8E0041C0B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8674581629086E8E0041C0B1 /* ContentView.swift */; };
@@ -18,13 +16,10 @@
 		8674582629086FB30041C0B1 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8674582529086FB30041C0B1 /* HomePage.swift */; };
 		8674582D290870B20041C0B1 /* Gato.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8674582C290870B20041C0B1 /* Gato.swift */; };
 		8674582F290870BD0041C0B1 /* Cachorro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8674582E290870BD0041C0B1 /* Cachorro.swift */; };
-		86745833290879370041C0B1 /* mascote.png in Resources */ = {isa = PBXBuildFile; fileRef = 86745832290879370041C0B1 /* mascote.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		86183154291D66B600C659C6 /* pointfree.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = pointfree.ttf; path = ../../../../../Downloads/pointfree/pointfree.ttf; sourceTree = "<group>"; };
-		8646293529158B1F001FE1B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		8646293A29158EBF001FE1B0 /* Pulang.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Pulang.ttf; path = ../../../../../Downloads/pulang/Pulang.ttf; sourceTree = "<group>"; };
+		8646293529158B1F001FE1B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		866DD62129142C0700DB4835 /* TutOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutOne.swift; sourceTree = "<group>"; };
 		8674581129086E8E0041C0B1 /* PetsCugara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetsCugara.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8674581429086E8E0041C0B1 /* PetsCugaraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsCugaraApp.swift; sourceTree = "<group>"; };
@@ -35,7 +30,8 @@
 		8674582529086FB30041C0B1 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		8674582C290870B20041C0B1 /* Gato.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gato.swift; sourceTree = "<group>"; };
 		8674582E290870BD0041C0B1 /* Cachorro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cachorro.swift; sourceTree = "<group>"; };
-		86745832290879370041C0B1 /* mascote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mascote.png; path = ../../../../Downloads/mascote.png; sourceTree = "<group>"; };
+		86CC65C2291D93820020F1C9 /* Pulang.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Pulang.ttf; path = ../../../../../Desktop/Projetos/PetsCugara/PetsCugara/Fonts/Pulang.ttf; sourceTree = "<group>"; };
+		86CC65C3291D93940020F1C9 /* pointfree.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = pointfree.ttf; path = ../../../../../Desktop/Projetos/PetsCugara/PetsCugara/Fonts/pointfree.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +48,8 @@
 		8646293729158DF2001FE1B0 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				86183154291D66B600C659C6 /* pointfree.ttf */,
-				8646293A29158EBF001FE1B0 /* Pulang.ttf */,
+				86CC65C2291D93820020F1C9 /* Pulang.ttf */,
+				86CC65C3291D93940020F1C9 /* pointfree.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -91,7 +87,6 @@
 				8674581429086E8E0041C0B1 /* PetsCugaraApp.swift */,
 				8674581629086E8E0041C0B1 /* ContentView.swift */,
 				8674581829086E8F0041C0B1 /* Assets.xcassets */,
-				86745832290879370041C0B1 /* mascote.png */,
 				8674581A29086E8F0041C0B1 /* Preview Content */,
 			);
 			path = PetsCugara;
@@ -184,9 +179,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8674581C29086E8F0041C0B1 /* Preview Assets.xcassets in Resources */,
-				86183155291D66B600C659C6 /* pointfree.ttf in Resources */,
-				8646293B29158F8D001FE1B0 /* Pulang.ttf in Resources */,
-				86745833290879370041C0B1 /* mascote.png in Resources */,
 				8674581929086E8F0041C0B1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
