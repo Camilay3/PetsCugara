@@ -33,7 +33,7 @@ struct HomePage: View {
 			VStack{
 				HStack{
 					Image(systemName: "pawprint.fill")
-						.foregroundColor(Color(red: 255/255, green: 183/255, blue: 98/255))
+						.foregroundColor(Cor.Cprimaria)
 						.frame(width: 50, height: 50)
 						.scaleEffect(2.5)
 						.padding(20)
@@ -46,7 +46,7 @@ struct HomePage: View {
 					
 				}.position(x: 80, y: 230)
 			}
-		}.ignoresSafeArea().foregroundColor(Cprimaria)
+		}.ignoresSafeArea()
 	}
 }
 
