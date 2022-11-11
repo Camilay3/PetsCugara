@@ -14,7 +14,7 @@ struct HomePage: View {
 				HStack{
 					Text("Tópicos")
 						.font(.custom("Pulang", size: 35))
-						.foregroundColor(Color(red: 68 / 255, green: 176 / 255, blue: 255 / 255))
+						.foregroundColor(Cor.Cterciaria)
 						.bold()
 						.padding(5)
 						
@@ -22,7 +22,7 @@ struct HomePage: View {
 					
 					// Transformar em botão
 					Image(systemName: "exclamationmark.triangle.fill")
-						.foregroundColor(Color(red: 51 / 255, green: 27 / 255, blue: 9 / 255))
+						.foregroundColor(Cor.Cterciaria)
 						.scaleEffect(2)
 						.frame(width: 50, height: 40)
 						.padding(10)
@@ -32,16 +32,10 @@ struct HomePage: View {
 			
 			VStack{
 				HStack{
-					Image(systemName: "pawprint.fill")
-						.foregroundColor(Cor.Cprimaria)
-						.frame(width: 50, height: 50)
-						.scaleEffect(2.5)
-						.padding(20)
-					
 					Button("Banho"){
 						print("certo")
 					}
-						.foregroundColor(.white)
+						.foregroundColor(.black)
 						.font(.custom("pointfree", size: 18))
 					
 				}.position(x: 80, y: 230)
