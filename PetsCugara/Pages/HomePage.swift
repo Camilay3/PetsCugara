@@ -10,23 +10,8 @@ import SwiftUI
 struct HomePage: View {
     var body: some View {
 		ZStack{
-			Color(red: 145 / 255, green: 84 / 255, blue: 40 / 255)
-				.foregroundColor(Cprincipal)
-			
 			ZStack{
-				Rectangle()
-					.frame(width: 400, height: 180)
-					.foregroundColor(Color(red: 255 / 255, green: 223 / 255, blue: 200 / 255))
-					.shadow(radius: 10)
-					.position(x: 200, y: 90)
-				
 				HStack{
-					Image("lina")
-						.scaleEffect(0.5)
-						.frame(width: 60, height: 100)
-						.padding(10)
-	
-					
 					Text("Tópicos")
 						.font(.custom("Pulang", size: 35))
 						.foregroundColor(Color(red: 68 / 255, green: 176 / 255, blue: 255 / 255))
@@ -61,7 +46,7 @@ struct HomePage: View {
 					
 				}.position(x: 80, y: 230)
 			}
-		}.ignoresSafeArea()
+		}.ignoresSafeArea().foregroundColor(Cprimaria)
 	}
 }
 
