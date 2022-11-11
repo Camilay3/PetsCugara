@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86551690291EC4FB00170E28 /* Cores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8655168F291EC4FB00170E28 /* Cores.swift */; };
 		866DD62229142C0700DB4835 /* TutOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866DD62129142C0700DB4835 /* TutOne.swift */; };
 		8674581529086E8E0041C0B1 /* PetsCugaraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8674581429086E8E0041C0B1 /* PetsCugaraApp.swift */; };
 		8674581729086E8E0041C0B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8674581629086E8E0041C0B1 /* ContentView.swift */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		8646293529158B1F001FE1B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8655168F291EC4FB00170E28 /* Cores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cores.swift; sourceTree = "<group>"; };
 		866DD62129142C0700DB4835 /* TutOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutOne.swift; sourceTree = "<group>"; };
 		8674581129086E8E0041C0B1 /* PetsCugara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetsCugara.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8674581429086E8E0041C0B1 /* PetsCugaraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsCugaraApp.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				8674581629086E8E0041C0B1 /* ContentView.swift */,
 				8674581829086E8F0041C0B1 /* Assets.xcassets */,
 				8674581A29086E8F0041C0B1 /* Preview Content */,
+				8655168F291EC4FB00170E28 /* Cores.swift */,
 			);
 			path = PetsCugara;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 			files = (
 				8674582F290870BD0041C0B1 /* Cachorro.swift in Sources */,
 				866DD62229142C0700DB4835 /* TutOne.swift in Sources */,
+				86551690291EC4FB00170E28 /* Cores.swift in Sources */,
 				8674581729086E8E0041C0B1 /* ContentView.swift in Sources */,
 				8674582D290870B20041C0B1 /* Gato.swift in Sources */,
 				8674581529086E8E0041C0B1 /* PetsCugaraApp.swift in Sources */,

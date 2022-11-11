@@ -11,6 +11,7 @@ struct HomePage: View {
     var body: some View {
 		ZStack{
 			Color(red: 145 / 255, green: 84 / 255, blue: 40 / 255)
+				.foregroundColor(Cprincipal)
 			
 			ZStack{
 				Rectangle()
