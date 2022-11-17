@@ -47,8 +47,9 @@ struct FirstPage: View {
                             .padding(10)
                             .font(.custom("pointfree", size: 18))
                     }
+                    .buttonBorderShape(.capsule)
                     .buttonStyle(.borderedProminent)
-                    .accentColor(.white)
+                    .accentColor(Cor.Csecundaria)
                     .position(x: proxy.size.width/2, y: proxy.size.height/3)
                 }
             }.ignoresSafeArea()
