@@ -2,20 +2,16 @@
 //  FirstPage.swift
 //  PetsCugara
 //
-//  Created by Camila Azevedo do Vale Santiago on 25/10/22..
+//  Created by Camila Azevedo do Vale Santiago on 25/10/22.
 //
 
 import SwiftUI
-
-let Cprincipal = Color(red: 206 / 255, green: 255 / 255, blue: 185 / 255);
-let Csecundaria = Color(red: 107 / 255, green: 144 / 255, blue: 128 / 255);
-let Cterciaria = Color(red: 55 / 255, green: 63 / 255, blue: 71 / 255);
 
 struct FirstPage: View {
     var body: some View {
         GeometryReader{ proxy in
             ZStack {
-                LinearGradient(colors: [Cterciaria, Cprincipal, Cprincipal], startPoint: .top, endPoint: .bottom)
+				LinearGradient(colors: [Cor.Cterciaria, Cor.Cprimaria, Cor.Cprimaria], startPoint: .top, endPoint: .bottom)
                 
                 ZStack{
                     Text("Pets Cugara")
@@ -55,11 +51,10 @@ struct FirstPage: View {
                     .accentColor(.white)
                     .position(x: proxy.size.width/2, y: proxy.size.height/3)
                 }
-            }.ignoresSafeArea().foregroundColor(Cprincipal)
+            }.ignoresSafeArea()
         }
     }
 }
-    
     
 struct FirstPage_Previews: PreviewProvider {
     static var previews: some View {
