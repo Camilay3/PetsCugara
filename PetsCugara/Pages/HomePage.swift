@@ -10,11 +10,12 @@ import SwiftUI
 struct HomePage: View {
     var body: some View {
 		ZStack{
+			Color("Cprimaria").ignoresSafeArea()
 			ZStack{
 				HStack{
 					Text("Tópicos")
 						.font(.custom("Pulang", size: 35))
-						.foregroundColor(Cor.Cterciaria)
+						.foregroundColor(Color("Cterciaria"))
 						.bold()
 						.padding(5)
 						
@@ -22,7 +23,7 @@ struct HomePage: View {
 					
 					// Transformar em botão
 					Image(systemName: "exclamationmark.triangle.fill")
-						.foregroundColor(Cor.Cterciaria)
+						.foregroundColor(Color("Cterciaria"))
 						.scaleEffect(2)
 						.frame(width: 50, height: 40)
 						.padding(10)
@@ -40,7 +41,7 @@ struct HomePage: View {
 					
 				}.position(x: 80, y: 230)
 			}
-		}.ignoresSafeArea()
+		}
 	}
 }
 

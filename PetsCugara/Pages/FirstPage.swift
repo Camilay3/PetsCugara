@@ -12,7 +12,7 @@ struct FirstPage: View {
 		NavigationView{
 			GeometryReader{ proxy in
 				ZStack {
-					LinearGradient(colors: [Cor.Cterciaria, Cor.Cprimaria, Cor.Cprimaria], startPoint: .top, endPoint: .bottom).ignoresSafeArea()
+					LinearGradient(colors: [Color("Cterciaria"), Color("Cprimaria"), Color("Cprimaria")], startPoint: .top, endPoint: .bottom).ignoresSafeArea()
 					
 					VStack{
 						Text("Pets Cugara")
@@ -27,7 +27,6 @@ struct FirstPage: View {
 						HStack {
 							Image("lina")
 								.rotation3DEffect(.degrees(180), axis: (x: 0, y: 1, z: 0))
-								.frame(width: 60, height: 50)
 								.padding(5)
 							
 							Text("- Bem vindo(a) ao Pets Cugara! Meu nome é Lina e vou ser sua guia! Gostaria de acessar o tutorial do nosso aplicativo?")

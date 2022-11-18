@@ -10,14 +10,14 @@ import SwiftUI
 struct LoadPage: View {
     var body: some View {
 		ZStack{
-			LinearGradient(colors: [Cor.Cterciaria, Cor.Cprimaria, Cor.Cprimaria], startPoint: .bottom, endPoint: .top)
+			LinearGradient(colors: [Color("Cterciaria"), Color("Cprimaria"), Color("Cprimaria")], startPoint: .top, endPoint: .bottom).ignoresSafeArea()
 			
 			VStack{
 				Text("Pets Cugara")
 					.bold()
 					.font(.custom("Pulang", size: 60))
 					.padding(20)
-					.foregroundColor(Cor.Cterciaria)
+					.foregroundColor(Color("Cterciaria"))
 				
 				Image("lina")
 					.rotation3DEffect(.degrees(180), axis: (x: 0, y: 1, z: 0))
@@ -31,7 +31,7 @@ struct LoadPage: View {
 //			Text("Knight Wolves")
 //				.foregroundColor(.white)
 //			
-		}.ignoresSafeArea()
+		}
     }
 }
 
