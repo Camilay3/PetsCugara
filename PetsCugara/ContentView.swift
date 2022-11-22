@@ -8,8 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+	@State var primeiroAcesso = UserDefaults.standard.bool(forKey: "primeiroAcesso")
+	
     var body: some View {
-        FirstPage()
+		ZStack {
+			if !primeiroAcesso {
+				FirstPage()
+					.onAppear {
+						UserDefaults.standard.set(true, forKey: "primeiroAcesso")
+					}
+			} else {
+				HomePage()
+			}
+		}
     }
 }
 
