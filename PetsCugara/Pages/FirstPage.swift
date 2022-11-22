@@ -32,7 +32,7 @@ struct FirstPage: View {
 								.padding(5)
 							
 							Text("- Bem vindo(a) ao Pets Cugara! Meu nome é Lina e vou ser sua guia! Gostaria de acessar o tutorial do nosso aplicativo?")
-								.foregroundColor(.black)
+								.foregroundColor(Color("preto"))
 								.font(.custom("pointfree", size: 18))
 						}
 						.padding(20)
