@@ -8,6 +8,12 @@
 import SwiftUI
 
 struct Banho: View {
+	@State private var selectedKey = "Tutorial"
+	let topicos = Topicos()
+	var selectedValue: String {
+		topicos.t1.subtopicos[selectedKey] ?? ""
+	}
+	
     var body: some View {
 //		Falta o Geometry
 		NavigationView{
@@ -18,12 +24,21 @@ struct Banho: View {
 					HStack{
 						//head
 						Image(systemName: "pawprint.fill")
-						Text("Banho")
+						Text("\(topicos.t1.nome)")
 						Image(systemName: "house.fill")
 					}
 					
 					VStack{
 						//text
+						Picker("Escolha um tópico", selection: $selectedKey) {
+							ForEach(Array(topicos.t1.subtopicos.keys), id: \.self) { key in
+								VStack(alignment: .leading) {
+									Text(key)
+								}
+								.padding()
+							}
+						}
+						Text(selectedValue)
 					}
 					
 					HStack{
