@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		34D69A6C2926B11600E868B2 /* Tópicos_testando.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D69A6B2926B11600E868B2 /* Tópicos_testando.swift */; };
-		86551692291EC9F800170E28 /* Cores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86551691291EC9F800170E28 /* Cores.swift */; };
 		62B187D32926B1A1002A3AF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62B187D22926B1A1002A3AF2 /* LaunchScreen.storyboard */; };
 		8633D5152926D43E005FD4D6 /* Banho.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8633D5142926D43E005FD4D6 /* Banho.swift */; };
+		86551692291EC9F800170E28 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		86551694291ECB9C00170E28 /* LoadPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86551693291ECB9C00170E28 /* LoadPage.swift */; };
 		866DD62229142C0700DB4835 /* TutOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866DD62129142C0700DB4835 /* TutOne.swift */; };
 		8674581529086E8E0041C0B1 /* PetsCugaraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8674581429086E8E0041C0B1 /* PetsCugaraApp.swift */; };
@@ -204,7 +204,7 @@
 			files = (
 				866DD62229142C0700DB4835 /* TutOne.swift in Sources */,
 				34D69A6C2926B11600E868B2 /* Tópicos_testando.swift in Sources */,
-				86551692291EC9F800170E28 /* Cores.swift in Sources */,
+				86551692291EC9F800170E28 /* (null) in Sources */,
 				8674581729086E8E0041C0B1 /* ContentView.swift in Sources */,
 				86551694291ECB9C00170E28 /* LoadPage.swift in Sources */,
 				8674581529086E8E0041C0B1 /* PetsCugaraApp.swift in Sources */,
