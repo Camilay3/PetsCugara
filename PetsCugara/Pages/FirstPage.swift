@@ -8,7 +8,9 @@
 import SwiftUI
 
 struct FirstPage: View {
-    var body: some View {
+	@State var newUser :Bool = true
+	
+	var body: some View {
 		NavigationView{
 			GeometryReader{ proxy in
 				ZStack {
