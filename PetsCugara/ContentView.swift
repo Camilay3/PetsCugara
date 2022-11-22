@@ -18,7 +18,7 @@ struct ContentView: View {
 						UserDefaults.standard.set(true, forKey: "primeiroAcesso")
 					}
 			} else {
-				HomePage()
+				Tópicos_testando()
 			}
 		}
     }

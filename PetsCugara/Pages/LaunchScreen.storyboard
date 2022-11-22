@@ -29,16 +29,16 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="lina" translatesAutoresizingMaskIntoConstraints="NO" id="Rz4-KR-JdV">
-                                <rect key="frame" x="123" y="404" width="146" height="146"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Pets Cugara" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="GJd-Yh-RWb">
-                                <rect key="frame" x="0.0" y="249" width="393" height="176"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pets Cugara" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="GJd-Yh-RWb">
+                                <rect key="frame" x="0.0" y="244.66666666666663" width="393" height="81"/>
                                 <fontDescription key="fontDescription" name="Pulang" family="Pulang" pointSize="62"/>
                                 <color key="textColor" name="Cterciaria"/>
                                 <color key="highlightedColor" systemColor="labelColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="lina" translatesAutoresizingMaskIntoConstraints="NO" id="Rz4-KR-JdV">
+                                <rect key="frame" x="123" y="384" width="146" height="146"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
                         <color key="backgroundColor" red="0.87624438700512997" green="1" blue="0.71501094404414467" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
