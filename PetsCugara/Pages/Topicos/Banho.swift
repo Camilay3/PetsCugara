@@ -34,7 +34,7 @@ struct Banho: View {
 		}
     }
 }
-//colocar td dentro de um if else
+//colocar td dentro de um if else pra gato e cachorro
 struct Banho_Previews: PreviewProvider {
     static var previews: some View {
         Banho()

@@ -6,6 +6,9 @@
 //
 import SwiftUI
 
+// UserDefaults para fazer a persistencia de dados
+// Onboarding com SwiftUI
+
 @main
 struct PetsCugaraApp: App {
     var body: some Scene {
