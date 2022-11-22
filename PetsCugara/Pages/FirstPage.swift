@@ -45,7 +45,7 @@ struct FirstPage: View {
 							})
 							.padding(10)
 							
-							NavigationLink(destination: HomePage(), label: {
+							NavigationLink(destination: Tópicos_testando(), label: {
 								Text("Pular Tutorial")
 							})
 							.padding(10)
