@@ -11,7 +11,7 @@ struct Banho: View {
 	@State private var selectedKey = "Tutorial"
 	let topicos = Topicos()
 	var selectedValue: String {
-		topicos.t1.subtopicos[selectedKey] ?? ""
+		topicos.t1.subtopicosDog[selectedKey] ?? ""
 	}
 	
 	var body: some View {
@@ -43,7 +43,7 @@ struct Banho: View {
 					VStack{
 						//text
 						Picker("Escolha um tópico", selection: $selectedKey) {
-							ForEach(Array(topicos.t1.subtopicos.keys), id: \.self) { key in
+							ForEach(Array(topicos.t1.subtopicosDog.keys), id: \.self) { key in
 								VStack(alignment: .leading) {
 									Text(key)
 								}
