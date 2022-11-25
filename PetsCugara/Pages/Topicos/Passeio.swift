@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct Vaccine: View {
+struct Passeio: View {
     var body: some View {
 		PaginaTopico(topico: .passeio)
     }
 }
 
-struct Vaccine_Previews: PreviewProvider {
+struct Passeio_Previews: PreviewProvider {
     static var previews: some View {
-        Vaccine()
+        Passeio()
     }
 }

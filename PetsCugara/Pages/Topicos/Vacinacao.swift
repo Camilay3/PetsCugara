@@ -1,5 +1,5 @@
 //
-//  Alimentação.swift
+//  Vacinação.swift
 //  PetsCugara
 //
 //  Created by Camila Azevedo do Vale Santiago on 25/11/22.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct Alimentac_a_o: View {
+struct Vacinacao: View {
     var body: some View {
-		PaginaTopico(topico: .alimentação)
+		PaginaTopico(topico: .vacinação)
     }
 }
 
-struct Alimentac_a_o_Previews: PreviewProvider {
+struct Vacinacao_Previews: PreviewProvider {
     static var previews: some View {
-        Alimentac_a_o()
+        Vacinacao()
     }
 }
