@@ -14,8 +14,10 @@ struct Banho: View {
 		topicos.t1.subtopicos[selectedKey] ?? ""
 	}
 	
-    var body: some View {
-//		Falta o Geometry
+	var body: some View {
+		//		Falta o Geometry
+		//		Se for cachorro, esse código, se for gato, outro
+		//		Uma view template para todas as páginas só mudando a variável t1?
 		NavigationView{
 			ZStack{
 				Color("Cprimaria").ignoresSafeArea()
@@ -25,33 +27,66 @@ struct Banho: View {
 						//head
 						Image(systemName: "pawprint.fill")
 						Text("\(topicos.t1.nome)")
-						Image(systemName: "house.fill")
+						Spacer()
+						NavigationLink(destination: HomePage().navigationBarBackButtonHidden(true), label: {
+							Image(systemName: "house.fill")
+								.foregroundColor(Color("Csecundaria"))
+						})
 					}
+					.padding(20)
+					.font(.custom("Pulang", size: 35))
+					.foregroundColor(Color("Cterciaria"))
+					
+					Spacer()
 					
 					VStack{
 						//text
 						Picker("Escolha um tópico", selection: $selectedKey) {
 							ForEach(Array(topicos.t1.subtopicos.keys), id: \.self) { key in
-								VStack(alignment: .leading) {
-									Text(key)
+								VStack(alignment: .leading) {									Text(key)
 								}
-								.padding()
+							}
+						}.accentColor(Color("Cterciaria"))
+							.background(Color(.white))
+							.cornerRadius(10)
+							.padding(20)
+						
+						Text(selectedValue)
+					}.font(.custom("pointfree", size: 16))
+					
+					Spacer()
+						.toolbar {
+							ToolbarItem(placement: .bottomBar) {
+								HStack{
+									Button(action: {
+										// acao aqui
+									}, label: {
+										Image("dog")
+									})
+									.padding(10)
+									
+									Button(action: {
+										// acao aqui
+									}, label: {
+										// Se cachorro estiver clicado, colocar opacidade
+										Image("cat")
+											.scaleEffect(0.5)
+									})
+									.padding(10)
+								}.background(.white)
+									.cornerRadius(20)
+									.foregroundColor(Color("Cterciaria"))
 							}
 						}
-						Text(selectedValue)
-					}
-					
-					HStack{
-						//toolbar
-					}
 				}
 			}
 		}
-    }
+	}
 }
+
 //colocar td dentro de um if else pra gato e cachorro
 struct Banho_Previews: PreviewProvider {
-    static var previews: some View {
-        Banho()
-    }
+	static var previews: some View {
+		Banho()
+	}
 }
