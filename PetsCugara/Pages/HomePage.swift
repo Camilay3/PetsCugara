@@ -19,9 +19,10 @@ struct HomePage: View {
                                 .bold()
                                 .font(.custom("Pulang", size: 45))
                                 .multilineTextAlignment(.center)
-                                .foregroundColor(Color(red: 55 / 255, green: 63 / 255, blue: 71 / 255))
+                                .foregroundColor(Color("Cterciaria"))
                                 .frame(width: 400, height: 227, alignment: .center)
                                 .position(x: 370/2, y: 90/2)
+                            
                             VStack{
                                 HStack{
                                     Spacer()
@@ -30,8 +31,8 @@ struct HomePage: View {
                                         .scaledToFit()
                                         .frame(width: 50, height: 50)
                                         .padding(25)
-                                        .foregroundColor(Color(red: 107 / 255, green: 144 / 255, blue: 128 / 255))
-                                    
+                                        .foregroundColor(Color("Csecundaria"))
+                                        
                                 }
                                 Spacer()
                             }
@@ -43,6 +44,8 @@ struct HomePage: View {
                                                 Rectangle()
                                                     .cornerRadius(21)
                                                     .frame(width: 120, height: 120)
+                                                    .foregroundColor(.white)
+                                                    .shadow(color: .gray, radius: 10)
                                                 Image("pet-shampoo")
                                                     .resizable()
                                                     .scaledToFit()
@@ -54,6 +57,7 @@ struct HomePage: View {
                                             Text("Banho")
                                                 .bold()
                                                 .font(.custom("pointfree", size: 18))
+                                                .foregroundColor(Color("Cterciaria"))
                                         }
                                         
                                     }).padding(29)
@@ -63,6 +67,8 @@ struct HomePage: View {
                                                 Rectangle()
                                                     .cornerRadius(21)
                                                     .frame(width: 120, height: 120)
+                                                    .foregroundColor(.white)
+                                                    .shadow(color: .gray, radius: 10)
                                                 Image("pet-bowl-2-2")
                                                     .resizable()
                                                     .scaledToFit()
@@ -73,6 +79,7 @@ struct HomePage: View {
                                             Text("Alimentação")
                                                 .bold()
                                                 .font(.custom("pointfree", size: 18))
+                                                .foregroundColor(Color("Cterciaria"))
                                         }
                                         
                                     })
@@ -85,6 +92,8 @@ struct HomePage: View {
                                                 Rectangle()
                                                     .cornerRadius(21)
                                                     .frame(width: 120, height: 120)
+                                                    .foregroundColor(.white)
+                                                    .shadow(color: .gray, radius: 10)
                                                 Image("vaccine-4")
                                                     .resizable()
                                                     .scaledToFit()
@@ -95,6 +104,7 @@ struct HomePage: View {
                                             Text("Vacinação")
                                                 .bold()
                                                 .font(.custom("pointfree", size: 18))
+                                                .foregroundColor(Color("Cterciaria"))
                                         }
                                         
                                     }).padding(29)
@@ -104,6 +114,8 @@ struct HomePage: View {
                                                 Rectangle()
                                                     .cornerRadius(21)
                                                     .frame(width: 120, height: 120)
+                                                    .foregroundColor(.white)
+                                                    .shadow(color: .gray, radius: 10)
                                                 Image("ponto-de-interrogacao")
                                                     .resizable()
                                                     .scaledToFit()
@@ -114,6 +126,7 @@ struct HomePage: View {
                                             Text("Curiosidades")
                                                 .bold()
                                                 .font(.custom("pointfree", size: 18))
+                                                .foregroundColor(Color("Cterciaria"))
                                         }
                                         
                                     }).padding(29)
@@ -125,6 +138,8 @@ struct HomePage: View {
                                                 Rectangle()
                                                     .cornerRadius(21)
                                                     .frame(width: 120, height: 120)
+                                                    .foregroundColor(.white)
+                                                    .shadow(color: .gray, radius: 10)
                                                 Image("dog-2")
                                                     .resizable()
                                                     .scaledToFit()
@@ -135,6 +150,7 @@ struct HomePage: View {
                                             Text("Passeio")
                                                 .bold()
                                                 .font(.custom("pointfree", size: 18))
+                                                .foregroundColor(Color("Cterciaria"))
                                         }
                                     }).padding(29)
                                     NavigationLink(destination: PetShop(), label:{
@@ -144,6 +160,7 @@ struct HomePage: View {
                                                     .cornerRadius(21)
                                                     .frame(width: 120, height: 120)
                                                     .foregroundColor(.white)
+                                                    .shadow(color: .gray, radius: 10)
                                                 Image("pet-shop-7")
                                                     .resizable()
                                                     .scaledToFit()
@@ -154,6 +171,7 @@ struct HomePage: View {
                                             Text("Pet Shop")
                                                 .bold()
                                                 .font(.custom("pointfree", size: 18))
+                                                .foregroundColor(Color("Cterciaria"))
                                         }
                                         
                                     }).padding(29)
