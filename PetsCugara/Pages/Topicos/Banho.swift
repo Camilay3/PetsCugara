@@ -62,6 +62,7 @@ struct Banho: View {
 										// acao aqui
 									}, label: {
 										Image("dog")
+										
 									})
 									.padding(10)
 									
@@ -70,12 +71,13 @@ struct Banho: View {
 									}, label: {
 										// Se cachorro estiver clicado, colocar opacidade
 										Image("cat")
-											.scaleEffect(0.5)
+											.opacity(0.2)
 									})
 									.padding(10)
 								}.background(.white)
 									.cornerRadius(20)
 									.foregroundColor(Color("Cterciaria"))
+									.scaleEffect(0.4)
 							}
 						}
 				}
