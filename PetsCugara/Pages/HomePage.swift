@@ -9,37 +9,39 @@ import SwiftUI
 
 struct HomePage: View {
     var body: some View {
-		ZStack{
-			Color("Cprimaria").ignoresSafeArea()
+		NavigationView {
 			ZStack{
-				HStack{
-					Text("Tópicos")
-						.font(.custom("Pulang", size: 35))
-						.foregroundColor(Color("Cterciaria"))
-						.bold()
-						.padding(5)
+				Color("Cprimaria").ignoresSafeArea()
+				ZStack{
+					HStack{
+						Text("Tópicos")
+							.font(.custom("Pulang", size: 35))
+							.foregroundColor(Color("Cterciaria"))
+							.bold()
+							.padding(5)
 						
-					Spacer()
-					
-					// Transformar em botão
-					Image(systemName: "exclamationmark.triangle.fill")
-						.foregroundColor(Color("Cterciaria"))
-						.scaleEffect(2)
-						.frame(width: 50, height: 40)
-						.padding(10)
-					
-				}.position(x: 200, y: 100)
-			}
-			
-			VStack{
-				HStack{
-					Button("Banho"){
-						print("certo")
-					}
+						Spacer()
+						
+						// Transformar em botão
+						Image(systemName: "exclamationmark.triangle.fill")
+							.foregroundColor(Color("Cterciaria"))
+							.scaleEffect(2)
+							.frame(width: 50, height: 40)
+							.padding(10)
+						
+					}.position(x: 200, y: 100)
+				}
+				
+				VStack{
+					HStack{
+						NavigationLink(destination: Banho().navigationBarBackButtonHidden(true), label: {
+							Text("Banho")
+						})
 						.foregroundColor(.black)
 						.font(.custom("pointfree", size: 18))
-					
-				}.position(x: 80, y: 230)
+						
+					}.position(x: 80, y: 230)
+				}
 			}
 		}
 	}
