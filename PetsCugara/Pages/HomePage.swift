@@ -37,7 +37,7 @@ struct HomePage: View {
                             }
                             VStack{
                                 HStack{
-                                    NavigationLink(destination: Banho(), label:{
+									NavigationLink(destination: PaginaTopico(topico: .t1), label:{
                                         VStack{
                                             ZStack{
                                                 Rectangle()

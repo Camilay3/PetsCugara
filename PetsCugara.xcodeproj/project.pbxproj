@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		3429ADC4292D62C8007E8983 /* Curiosidades.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3429ADC3292D62C8007E8983 /* Curiosidades.swift */; };
 		3429ADC6292D632C007E8983 /* Passeio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3429ADC5292D632C007E8983 /* Passeio.swift */; };
-		3429ADC8292D6430007E8983 /* Comida.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3429ADC7292D6430007E8983 /* Comida.swift */; };
-		3429ADCA292D645B007E8983 /* Vacina.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3429ADC9292D645B007E8983 /* Vacina.swift */; };
 		3429ADCC292D6549007E8983 /* PetShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3429ADCB292D6549007E8983 /* PetShop.swift */; };
 		62B187D32926B1A1002A3AF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62B187D22926B1A1002A3AF2 /* LaunchScreen.storyboard */; };
-		8633D5152926D43E005FD4D6 /* Banho.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8633D5142926D43E005FD4D6 /* Banho.swift */; };
+		8633D5152926D43E005FD4D6 /* PaginaTopico.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8633D5142926D43E005FD4D6 /* PaginaTopico.swift */; };
+		863E715929313DD400FA6D76 /* Alimentação.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863E715829313DD400FA6D76 /* Alimentação.swift */; };
+		863E715B29313DFA00FA6D76 /* Vacinação.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863E715A29313DFA00FA6D76 /* Vacinação.swift */; };
 		86551692291EC9F800170E28 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		866DD62229142C0700DB4835 /* TutOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866DD62129142C0700DB4835 /* TutOne.swift */; };
 		8674581529086E8E0041C0B1 /* PetsCugaraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8674581429086E8E0041C0B1 /* PetsCugaraApp.swift */; };
@@ -30,11 +30,11 @@
 /* Begin PBXFileReference section */
 		3429ADC3292D62C8007E8983 /* Curiosidades.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curiosidades.swift; sourceTree = "<group>"; };
 		3429ADC5292D632C007E8983 /* Passeio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passeio.swift; sourceTree = "<group>"; };
-		3429ADC7292D6430007E8983 /* Comida.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comida.swift; sourceTree = "<group>"; };
-		3429ADC9292D645B007E8983 /* Vacina.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vacina.swift; sourceTree = "<group>"; };
 		3429ADCB292D6549007E8983 /* PetShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetShop.swift; sourceTree = "<group>"; };
 		62B187D22926B1A1002A3AF2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8633D5142926D43E005FD4D6 /* Banho.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banho.swift; sourceTree = "<group>"; };
+		8633D5142926D43E005FD4D6 /* PaginaTopico.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginaTopico.swift; sourceTree = "<group>"; };
+		863E715829313DD400FA6D76 /* Alimentação.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alimentação.swift"; sourceTree = "<group>"; };
+		863E715A29313DFA00FA6D76 /* Vacinação.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Vacinação.swift"; sourceTree = "<group>"; };
 		8646293529158B1F001FE1B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		866DD62129142C0700DB4835 /* TutOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutOne.swift; sourceTree = "<group>"; };
 		8674581129086E8E0041C0B1 /* PetsCugara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetsCugara.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,13 +63,13 @@
 		8633D5132926D42D005FD4D6 /* Topicos */ = {
 			isa = PBXGroup;
 			children = (
-				8633D5142926D43E005FD4D6 /* Banho.swift */,
+				8633D5142926D43E005FD4D6 /* PaginaTopico.swift */,
 				86990C8D292D5DD7005DC4C6 /* Textos.swift */,
-				3429ADC7292D6430007E8983 /* Comida.swift */,
-				3429ADC9292D645B007E8983 /* Vacina.swift */,
 				3429ADC3292D62C8007E8983 /* Curiosidades.swift */,
 				3429ADC5292D632C007E8983 /* Passeio.swift */,
 				3429ADCB292D6549007E8983 /* PetShop.swift */,
+				863E715829313DD400FA6D76 /* Alimentação.swift */,
+				863E715A29313DFA00FA6D76 /* Vacinação.swift */,
 			);
 			path = Topicos;
 			sourceTree = "<group>";
@@ -221,12 +221,12 @@
 				86551692291EC9F800170E28 /* (null) in Sources */,
 				8674581729086E8E0041C0B1 /* ContentView.swift in Sources */,
 				8674581529086E8E0041C0B1 /* PetsCugaraApp.swift in Sources */,
-				8633D5152926D43E005FD4D6 /* Banho.swift in Sources */,
-				3429ADC8292D6430007E8983 /* Comida.swift in Sources */,
+				863E715929313DD400FA6D76 /* Alimentação.swift in Sources */,
+				863E715B29313DFA00FA6D76 /* Vacinação.swift in Sources */,
+				8633D5152926D43E005FD4D6 /* PaginaTopico.swift in Sources */,
 				3429ADC6292D632C007E8983 /* Passeio.swift in Sources */,
 				8674582429086FA50041C0B1 /* FirstPage.swift in Sources */,
 				8674582629086FB30041C0B1 /* HomePage.swift in Sources */,
-				3429ADCA292D645B007E8983 /* Vacina.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
