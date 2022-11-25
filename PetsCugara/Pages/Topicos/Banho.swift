@@ -17,6 +17,7 @@ struct Banho: View {
 	var body: some View {
 		//		Falta o Geometry
 		//		Se for cachorro, esse código, se for gato, outro
+		//colocar td dentro de um if else pra gato e cachorro
 		//		Uma view template para todas as páginas só mudando a variável t1?
 		NavigationView{
 			ZStack{
@@ -43,7 +44,8 @@ struct Banho: View {
 						//text
 						Picker("Escolha um tópico", selection: $selectedKey) {
 							ForEach(Array(topicos.t1.subtopicos.keys), id: \.self) { key in
-								VStack(alignment: .leading) {									Text(key)
+								VStack(alignment: .leading) {
+									Text(key)
 								}
 							}
 						}.accentColor(Color("Cterciaria"))
@@ -52,7 +54,7 @@ struct Banho: View {
 							.padding(20)
 						
 						Text(selectedValue)
-					}.font(.custom("pointfree", size: 16))
+					}.font(.custom("pointfree", size: 16)).padding(30)
 					
 					Spacer()
 						.toolbar {
@@ -65,6 +67,7 @@ struct Banho: View {
 										
 									})
 									.padding(10)
+									.padding(.horizontal, 60)
 									
 									Button(action: {
 										// acao aqui
@@ -74,6 +77,7 @@ struct Banho: View {
 											.opacity(0.2)
 									})
 									.padding(10)
+									.padding(.horizontal, 60)
 								}.background(.white)
 									.cornerRadius(20)
 									.foregroundColor(Color("Cterciaria"))
@@ -86,7 +90,6 @@ struct Banho: View {
 	}
 }
 
-//colocar td dentro de um if else pra gato e cachorro
 struct Banho_Previews: PreviewProvider {
 	static var previews: some View {
 		Banho()
