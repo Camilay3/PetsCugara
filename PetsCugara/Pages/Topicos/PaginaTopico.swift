@@ -103,7 +103,11 @@ struct PaginaTopico: View {
 								.cornerRadius(10)
 								.padding(20)
 							
+							Spacer()
+							
 							Text(selectedValue)
+							
+							Spacer()
 						}
 						.font(.custom("pointfree", size: 16)).padding(30)
 						.onAppear {
