@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		340DBADA29366F1000B0161B /* Emergency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340DBAD929366F1000B0161B /* Emergency.swift */; };
 		3429ADC4292D62C8007E8983 /* Curiosidades.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3429ADC3292D62C8007E8983 /* Curiosidades.swift */; };
 		3429ADC6292D632C007E8983 /* Passeio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3429ADC5292D632C007E8983 /* Passeio.swift */; };
 		3429ADCC292D6549007E8983 /* PetShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3429ADCB292D6549007E8983 /* PetShop.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		340DBAD929366F1000B0161B /* Emergency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emergency.swift; sourceTree = "<group>"; };
 		3429ADC3292D62C8007E8983 /* Curiosidades.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curiosidades.swift; sourceTree = "<group>"; };
 		3429ADC5292D632C007E8983 /* Passeio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passeio.swift; sourceTree = "<group>"; };
 		3429ADCB292D6549007E8983 /* PetShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetShop.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 		8674580829086E8E0041C0B1 = {
 			isa = PBXGroup;
 			children = (
+				340DBAD929366F1000B0161B /* Emergency.swift */,
 				8674581329086E8E0041C0B1 /* PetsCugara */,
 				8674581229086E8E0041C0B1 /* Products */,
 			);
@@ -224,6 +227,7 @@
 				863E715929313DD400FA6D76 /* Alimentacao.swift in Sources */,
 				863E715B29313DFA00FA6D76 /* Vacinacao.swift in Sources */,
 				8633D5152926D43E005FD4D6 /* PaginaTopico.swift in Sources */,
+				340DBADA29366F1000B0161B /* Emergency.swift in Sources */,
 				3429ADC6292D632C007E8983 /* Passeio.swift in Sources */,
 				8674582429086FA50041C0B1 /* FirstPage.swift in Sources */,
 				8674582629086FB30041C0B1 /* HomePage.swift in Sources */,

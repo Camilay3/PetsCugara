@@ -9,7 +9,7 @@ import SwiftUI
 
 struct HomePage: View {
 	var body: some View {
-		NavigationView{
+        NavigationView{
 			GeometryReader{ proxy in
 				ZStack{
 					Color("Cprimaria").ignoresSafeArea()
@@ -26,13 +26,14 @@ struct HomePage: View {
 							VStack{
 								HStack{
 									Spacer()
-									Image(systemName: "exclamationmark.triangle.fill")
-										.resizable()
-										.scaledToFit()
-										.frame(width: 50, height: 50)
-										.padding(25)
-										.foregroundColor(Color("Csecundaria"))
-									
+                                    NavigationLink(destination: Emergency().navigationBarBackButtonHidden(true), label: {
+                                        Image(systemName: "exclamationmark.triangle.fill")
+                                            .resizable()
+                                            .scaledToFit()
+                                            .frame(width: 50, height: 50)
+                                            .padding(25)
+                                            .foregroundColor(Color("Csecundaria"))
+                                    })
 								}
 								Spacer()
 							}
