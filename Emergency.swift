@@ -1,20 +1,20 @@
 //
-//  Food.swift
+//  Emergência.swift
 //  PetsCugara
 //
-//  Created by Caio Vieira Cajazeiras on 22/11/22.
+//  Created by Caio Vieira Cajazeiras on 29/11/22.
 //
 
 import SwiftUI
 
-struct Comida: View {
+struct Emergency: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct Comida_Previews: PreviewProvider {
+struct EmergencyPreviews: PreviewProvider {
     static var previews: some View {
-        Comida()
+        Emergency()
     }
 }

@@ -40,12 +40,12 @@ struct FirstPage: View {
 						Spacer()
 						
 						VStack{
-							NavigationLink(destination: TutOne(), label: {
+							NavigationLink(destination: TutOne().navigationBarBackButtonHidden(true), label: {
 								Text("Sim")
 							})
 							.padding(10)
 							
-							NavigationLink(destination: Tópicos_testando(), label: {
+							NavigationLink(destination: HomePage().navigationBarBackButtonHidden(true), label: {
 								Text("Pular Tutorial")
 							})
 							.padding(10)
