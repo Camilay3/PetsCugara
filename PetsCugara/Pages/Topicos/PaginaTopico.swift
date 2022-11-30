@@ -40,8 +40,6 @@ struct PaginaTopico: View {
 					.font(.custom("Pulang", size: 35))
 					.foregroundColor(Color("Cterciaria"))
 					
-					Spacer()
-					
 					if (selectedDog == true) {
 						VStack{
 							Picker("Escolha um tópico", selection: $selectedKey) {
@@ -57,7 +55,9 @@ struct PaginaTopico: View {
 							
 							Spacer()
 							
-							Text(selectedValue)
+							ScrollView {
+								Text(selectedValue)
+							}
 							
 							Spacer()
 						}
@@ -105,7 +105,9 @@ struct PaginaTopico: View {
 							
 							Spacer()
 							
-							Text(selectedValue)
+							ScrollView {
+								Text(selectedValue)
+							}
 							
 							Spacer()
 						}
