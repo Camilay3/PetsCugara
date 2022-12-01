@@ -8,8 +8,6 @@
 import SwiftUI
 import Foundation
 
-// Perguntar sobre View dentro de View em um dicionário
-
 struct Topico {
 	
 	static var banho = Topico("Banho", ["Tutorial":"1. Separe os materiais necessários. \n2. Proteja os ouvidos do seu pet: É importante que antes de começar o banho você proteja os ouvidos proteja os ouvidos do seu animal com algodão para evitar a entrada de água. \n3. Enxágue os pelos: Molhe o corpo do cachorro e por último molhe a cabeça. Atenção com a temperatura da água, ela deve estar de morna para fria. \n4. Aplique o shampoo: Utilizando um produto especial para cães, mais específico para o tipo de pelo do animal, e massageie o pelo. Em seguida, enxágue bem. \n5. Condicionador: Se o seu pet tiver pelos muitos longos, é importante utilizar um condicionador e desembaraçar o pelo com uma escova própria. \n6. Após o banho, limpe os ouvidos do pet com um algodão molhado com um pouco de água, limpando somente até onde você enxergar. \n7. Secagem: Depois de tirar o excesso de água com uma toalha, utilize um secador em temperatura media- baixa para secar o pelo utilizando uma escova.", "Materiais permitidos":"- Escova de dentes (também é importante dar atenção à higiene bucal do seu pet). \n- Produtos especiais para cachorros (shampoo, condicionador). \n- Cortador de unhas.", "Materiais proibidos":"- Produtos destinados a humanos: O pet pode ter alergia aos componentes químicos nesses produtos, podendo gerar ferimentos e até queimaduras. \n- Produtos de limpeza: Jamais utilizar produtos destinados a limpeza da casa, como sabão em pó, detergente, etc. \n- Produtos desenvolvidos para outros animais."],
