@@ -26,8 +26,8 @@ struct HomePage: View {
 							VStack{
 								HStack{
 									Spacer()
-                                    NavigationLink(destination: Emergencia().navigationBarBackButtonHidden(true), label: {
-                                        Image(systemName: "questionmark")
+                                    NavigationLink(destination: PrimeirosSocorros().navigationBarBackButtonHidden(true), label: {
+                                        Image(systemName: "exclamationmark.triangle.fill")
                                             .resizable()
                                             .scaledToFit()
                                             .frame(width: 50, height: 50)
@@ -110,7 +110,7 @@ struct HomePage: View {
 										}
 										
 									}).padding(29)
-									NavigationLink(destination: Emergencia().navigationBarBackButtonHidden(true), label:{
+									NavigationLink(destination: PrimeirosSocorros().navigationBarBackButtonHidden(true), label:{
 										VStack{
 											ZStack{
 												Rectangle()
@@ -156,7 +156,7 @@ struct HomePage: View {
 												.foregroundColor(Color("Cterciaria"))
 										}
 									}).padding(29)
-									NavigationLink(destination: PetShop().navigationBarBackButtonHidden(true), label:{
+									NavigationLink(destination: Hospitais24h().navigationBarBackButtonHidden(true), label:{
 										VStack{
 											ZStack{
 												Rectangle()
