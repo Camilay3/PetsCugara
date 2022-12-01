@@ -27,12 +27,13 @@ struct HomePage: View {
 								HStack{
 									Spacer()
                                     NavigationLink(destination: Emergencia().navigationBarBackButtonHidden(true), label: {
-                                        Image(systemName: "exclamationmark.triangle.fill")
+                                        Image(systemName: "questionmark")
                                             .resizable()
                                             .scaledToFit()
                                             .frame(width: 50, height: 50)
                                             .padding(25)
                                             .foregroundColor(Color("Csecundaria"))
+                                            
                                     })
 								}
 								Spacer()
@@ -117,14 +118,15 @@ struct HomePage: View {
 													.frame(width: 120, height: 120)
 													.foregroundColor(.white)
 													.shadow(color: .gray, radius: 10)
-												Image("ponto-de-interrogacao")
+												Image("warning-2")
 													.resizable()
 													.scaledToFit()
 													.frame(width: 75, height: 75)
 													.padding(.vertical, 14/10)
 													.padding(.horizontal, 140/10)
+                                                    .foregroundColor(Color("Csecundaria"))
 											}
-											Text("Curiosidades")
+											Text("Emergência")
 												.bold()
 												.font(.custom("pointfree", size: 18))
 												.foregroundColor(Color("Cterciaria"))
