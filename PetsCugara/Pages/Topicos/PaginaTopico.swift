@@ -8,7 +8,10 @@
 import SwiftUI
 
 struct PaginaTopico: View {
+	
 	let topico: Topico
+	
+	@Environment(\.dismiss) var dismiss
 	
 	@State private var selectedKey = ""
 	@State private var selectedDog = true
@@ -31,10 +34,12 @@ struct PaginaTopico: View {
 						Image(systemName: "pawprint.fill")
 						Text("\(topico.nome)")
 						Spacer()
-						NavigationLink(destination: HomePage().navigationBarBackButtonHidden(true), label: {
+						Button {
+							dismiss()
+						} label: {
 							Image(systemName: "house.fill")
 								.foregroundColor(Color("Csecundaria"))
-						})
+						}
 					}
 					.padding(20)
 					.font(.custom("Pulang", size: 35))
