@@ -31,7 +31,7 @@ struct TutOne: View {
 							
 							VStack{
 								HStack{
-									NavigationLink(destination: TutTwo().navigationBarBackButtonHidden(true), label:{
+									NavigationLink(destination: TutTwo(topico: .banho).navigationBarBackButtonHidden(true), label:{
 										VStack{
 											ZStack{
 												Rectangle()
