@@ -26,13 +26,15 @@ struct HomePage: View {
 							VStack{
 								HStack{
 									Spacer()
-                                    NavigationLink(destination: PrimeirosSocorros().navigationBarBackButtonHidden(true), label: {
-                                        Image(systemName: "exclamationmark.triangle.fill")
+                                    NavigationLink(destination: TutOne().navigationBarBackButtonHidden(true), label: {
+                                        Image(systemName: "questionmark.circle")
                                             .resizable()
                                             .scaledToFit()
                                             .frame(width: 50, height: 50)
                                             .padding(25)
                                             .foregroundColor(Color("Csecundaria"))
+                                            .padding(.vertical, 14/10)
+                                            .padding(.horizontal, 240/10)
                                             
                                     })
 								}
