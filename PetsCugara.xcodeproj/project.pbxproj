@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		341A68A02939190700C4D909 /* landmarks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341A689F2939190700C4D909 /* landmarks.swift */; };
+		341A68A229391FA700C4D909 /* litlleimage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341A68A129391FA700C4D909 /* litlleimage.swift */; };
+		341A68A42939212E00C4D909 /* little map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341A68A32939212E00C4D909 /* little map.swift */; };
 		3429ADC6292D632C007E8983 /* Passeio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3429ADC5292D632C007E8983 /* Passeio.swift */; };
 		62B187D32926B1A1002A3AF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62B187D22926B1A1002A3AF2 /* LaunchScreen.storyboard */; };
 		8633D5152926D43E005FD4D6 /* PaginaTopico.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8633D5142926D43E005FD4D6 /* PaginaTopico.swift */; };
@@ -28,6 +31,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		341A689F2939190700C4D909 /* landmarks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = landmarks.swift; sourceTree = "<group>"; };
+		341A68A129391FA700C4D909 /* litlleimage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = litlleimage.swift; sourceTree = "<group>"; };
+		341A68A32939212E00C4D909 /* little map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "little map.swift"; sourceTree = "<group>"; };
 		3429ADC5292D632C007E8983 /* Passeio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passeio.swift; sourceTree = "<group>"; };
 		62B187D22926B1A1002A3AF2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8633D5142926D43E005FD4D6 /* PaginaTopico.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginaTopico.swift; sourceTree = "<group>"; };
@@ -60,6 +66,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		341A68A52939240700C4D909 /* mapas_testando */ = {
+			isa = PBXGroup;
+			children = (
+				341A68A32939212E00C4D909 /* little map.swift */,
+				341A68A129391FA700C4D909 /* litlleimage.swift */,
+				341A689F2939190700C4D909 /* landmarks.swift */,
+			);
+			path = mapas_testando;
+			sourceTree = "<group>";
+		};
 		8633D5132926D42D005FD4D6 /* Topicos */ = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +101,7 @@
 		8674580829086E8E0041C0B1 = {
 			isa = PBXGroup;
 			children = (
+				341A68A52939240700C4D909 /* mapas_testando */,
 				8674581329086E8E0041C0B1 /* PetsCugara */,
 				8674581229086E8E0041C0B1 /* Products */,
 			);
@@ -219,7 +236,10 @@
 				86551692291EC9F800170E28 /* (null) in Sources */,
 				8674581729086E8E0041C0B1 /* ContentView.swift in Sources */,
 				86600E5E2938E0DA00ADD9AB /* Hospitais24h.swift in Sources */,
+				341A68A02939190700C4D909 /* landmarks.swift in Sources */,
 				8674581529086E8E0041C0B1 /* PetsCugaraApp.swift in Sources */,
+				341A68A42939212E00C4D909 /* little map.swift in Sources */,
+				341A68A229391FA700C4D909 /* litlleimage.swift in Sources */,
 				863E715929313DD400FA6D76 /* Alimentacao.swift in Sources */,
 				863E715B29313DFA00FA6D76 /* Vacinacao.swift in Sources */,
 				8633D5152926D43E005FD4D6 /* PaginaTopico.swift in Sources */,
