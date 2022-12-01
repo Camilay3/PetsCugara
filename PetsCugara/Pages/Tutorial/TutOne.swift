@@ -8,36 +8,26 @@
 import SwiftUI
 
 struct TutOne: View {
+	
+	@State var frames: [String: CGRect] = [:]
+	@State var focusedFrameName = "banho"
+	
 	var body: some View {
 		NavigationView{
 			GeometryReader{ proxy in
 				ZStack{
-					ZStack{
-						Color("Cprimaria").ignoresSafeArea()
-						VStack{
-							ZStack{
-								Text("Tópicos")
-									.bold()
-									.font(.custom("Pulang", size: 45))
-									.multilineTextAlignment(.center)
-									.foregroundColor(Color("Cterciaria"))
-									.frame(width: 400, height: 227, alignment: .center)
-									.position(x: 370/2, y: 90/2)
-								
-								VStack{
-									HStack{
-										Spacer()
-										Button(action: {}, label: {
-											Image(systemName: "exclamationmark.triangle.fill")
-												.resizable()
-												.scaledToFit()
-												.frame(width: 50, height: 50)
-												.padding(25)
-												.foregroundColor(Color("Csecundaria"))
-										})
-									}
-									Spacer()
-								}
+					Color("Cprimaria").ignoresSafeArea()
+					VStack{
+						ZStack{
+							Text("Tópicos")
+								.bold()
+								.font(.custom("Pulang", size: 45))
+								.multilineTextAlignment(.center)
+								.foregroundColor(Color("Cterciaria"))
+								.frame(width: 400, height: 227, alignment: .center)
+								.position(x: 370/2, y: 90/2)
+							
+							ScrollView{
 								VStack{
 									HStack{
 										NavigationLink(destination: PaginaTopico(topico: .banho).navigationBarBackButtonHidden(true), label:{
@@ -63,8 +53,9 @@ struct TutOne: View {
 											}
 											
 										}).padding(29)
+											.saveFrame(in: $frames, name: "banho")
 										
-										Button(action: {}, label:{
+										Button(action:{}, label:{
 											VStack{
 												ZStack{
 													Rectangle()
@@ -89,7 +80,7 @@ struct TutOne: View {
 										.padding(29)
 									}
 									HStack{
-										Button(action: {}, label: {
+										Button(action:{}, label: {
 											VStack{
 												ZStack{
 													Rectangle()
@@ -111,7 +102,7 @@ struct TutOne: View {
 											}
 											
 										}).padding(29)
-										Button(action: {}, label:{
+										Button(action:{}, label:{
 											VStack{
 												ZStack{
 													Rectangle()
@@ -119,14 +110,15 @@ struct TutOne: View {
 														.frame(width: 120, height: 120)
 														.foregroundColor(.white)
 														.shadow(color: .gray, radius: 10)
-													Image("ponto-de-interrogacao")
+													Image("warning-2")
 														.resizable()
 														.scaledToFit()
 														.frame(width: 75, height: 75)
 														.padding(.vertical, 14/10)
 														.padding(.horizontal, 140/10)
+														.foregroundColor(Color("Csecundaria"))
 												}
-												Text("Curiosidades")
+												Text("Emergência")
 													.bold()
 													.font(.custom("pointfree", size: 18))
 													.foregroundColor(Color("Cterciaria"))
@@ -135,7 +127,7 @@ struct TutOne: View {
 										}).padding(29)
 									}
 									HStack{
-										Button(action: {}, label:{
+										Button(action:{}, label:{
 											VStack{
 												ZStack{
 													Rectangle()
@@ -156,7 +148,7 @@ struct TutOne: View {
 													.foregroundColor(Color("Cterciaria"))
 											}
 										}).padding(29)
-										Button(action: {}, label:{
+										Button(action:{}, label:{
 											VStack{
 												ZStack{
 													Rectangle()
@@ -171,7 +163,7 @@ struct TutOne: View {
 														.padding(.vertical, 14/10)
 														.padding(.horizontal, 140/10)
 												}
-												Text("Pet Shop")
+												Text("Hospitais 24h")
 													.bold()
 													.font(.custom("pointfree", size: 18))
 													.foregroundColor(Color("Cterciaria"))
@@ -182,24 +174,29 @@ struct TutOne: View {
 								}.position(x:200, y: 425)
 							}
 						}
-						
-						Color("Cfundo").ignoresSafeArea()
-							.opacity(0.8)
-	
-						VStack{
-							Spacer()
-							Text("- Bem vindo(a) ao tutorial! Essa é a página principal, onde você pode acessar os tópicos")
-								.foregroundColor(.black)
-								.padding(30)
-								.font(.custom("Pointfree", size: 17))
-								.background(Color(.white))
-								.cornerRadius(40)
-							
-							Image("lina")
-								.scaleEffect(1.2)
-								.padding(.vertical, 10)
-						}.padding(.horizontal, 20)
 					}
+					.overlay {
+						FocusView(frame: frames[focusedFrameName])
+					}
+					
+					VStack{
+						Spacer()
+						Text("- Bem vindo(a) ao tutorial! Essa é a página principal, onde você pode acessar os tópicos")
+							.foregroundColor(.black)
+							.padding(30)
+							.font(.custom("Pointfree", size: 17))
+							.background(Color(.white))
+							.cornerRadius(40)
+							.saveFrame(in: $frames, name: "banho")
+						
+						Image("lina")
+							.scaleEffect(1.2)
+							.padding(.vertical, 10)
+							
+					}.padding(.horizontal, 20)
+						
+					
+					
 				}
 			}
 		}
