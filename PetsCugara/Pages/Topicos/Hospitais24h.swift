@@ -19,7 +19,7 @@ struct Hospitais24h: View {
                             Image(systemName: "pawprint.fill")
                             Text("Hospitais 24h")
                             Spacer()
-                            NavigationLink(destination: HomePage(), label: {
+                            NavigationLink(destination: HomePage().navigationBarBackButtonHidden(true), label: {
                                 Image(systemName: "house.fill")
                                     .foregroundColor(Color("Csecundaria"))
                             })
