@@ -26,7 +26,7 @@ struct HomePage: View {
 							VStack{
 								HStack{
 									Spacer()
-                                    NavigationLink(destination: Emergency().navigationBarBackButtonHidden(true), label: {
+                                    NavigationLink(destination: Emergencia().navigationBarBackButtonHidden(true), label: {
                                         Image(systemName: "exclamationmark.triangle.fill")
                                             .resizable()
                                             .scaledToFit()
@@ -109,7 +109,7 @@ struct HomePage: View {
 										}
 										
 									}).padding(29)
-									NavigationLink(destination: Curiosidades().navigationBarBackButtonHidden(true), label:{
+									NavigationLink(destination: Emergencia().navigationBarBackButtonHidden(true), label:{
 										VStack{
 											ZStack{
 												Rectangle()
