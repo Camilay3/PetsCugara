@@ -171,7 +171,7 @@ struct HomePage: View {
 													.padding(.vertical, 14/10)
 													.padding(.horizontal, 140/10)
 											}
-											Text("Pet Shop")
+											Text("Hospitais 24h")
 												.bold()
 												.font(.custom("pointfree", size: 18))
 												.foregroundColor(Color("Cterciaria"))
