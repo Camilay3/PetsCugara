@@ -11,6 +11,7 @@ struct TutOne: View {
 	
 	@State var frames: [String: CGRect] = [:]
 	@State var focusedFrameName = "banho"
+	@Environment(\.dismiss) var dismiss
 	
 	var body: some View {
 		NavigationView{
@@ -191,6 +192,18 @@ struct TutOne: View {
 							.scaleEffect(1.2)
 							.padding(.vertical, 10)
 						
+						Button {
+							dismiss()
+						} label: {
+							HStack{
+								Image(systemName: "x.circle")
+									.scaleEffect(1.5)
+									.padding(.horizontal, 10)
+								Text("Sair do tutorial")
+							}
+							.font(.custom("Pointfree", size: 17))
+							.foregroundColor(Color(.white))
+						}
 					}.padding(.horizontal, 20)
 				}
 			}
