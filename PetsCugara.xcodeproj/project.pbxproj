@@ -9,7 +9,11 @@
 /* Begin PBXBuildFile section */
 		341A68A02939190700C4D909 /* landmarks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341A689F2939190700C4D909 /* landmarks.swift */; };
 		341A68A229391FA700C4D909 /* litlleimage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341A68A129391FA700C4D909 /* litlleimage.swift */; };
-		341A68A42939212E00C4D909 /* little map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341A68A32939212E00C4D909 /* little map.swift */; };
+		341A68A42939212E00C4D909 /* littlemap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341A68A32939212E00C4D909 /* littlemap.swift */; };
+		341A68A7293935E400C4D909 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 341A68A6293935E400C4D909 /* landmarkData.json */; };
+		341A68A92939364200C4D909 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341A68A82939364200C4D909 /* Landmark.swift */; };
+		341A68AB29393FB800C4D909 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341A68AA29393FB800C4D909 /* model.swift */; };
+		341A68AE2939447F00C4D909 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341A68AD2939447F00C4D909 /* LandmarkRow.swift */; };
 		3429ADC6292D632C007E8983 /* Passeio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3429ADC5292D632C007E8983 /* Passeio.swift */; };
 		62B187D32926B1A1002A3AF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62B187D22926B1A1002A3AF2 /* LaunchScreen.storyboard */; };
 		8633D5152926D43E005FD4D6 /* PaginaTopico.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8633D5142926D43E005FD4D6 /* PaginaTopico.swift */; };
@@ -36,7 +40,11 @@
 /* Begin PBXFileReference section */
 		341A689F2939190700C4D909 /* landmarks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = landmarks.swift; sourceTree = "<group>"; };
 		341A68A129391FA700C4D909 /* litlleimage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = litlleimage.swift; sourceTree = "<group>"; };
-		341A68A32939212E00C4D909 /* little map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "little map.swift"; sourceTree = "<group>"; };
+		341A68A32939212E00C4D909 /* littlemap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = littlemap.swift; sourceTree = "<group>"; };
+		341A68A6293935E400C4D909 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		341A68A82939364200C4D909 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		341A68AA29393FB800C4D909 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		341A68AD2939447F00C4D909 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		3429ADC5292D632C007E8983 /* Passeio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passeio.swift; sourceTree = "<group>"; };
 		62B187D22926B1A1002A3AF2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8633D5142926D43E005FD4D6 /* PaginaTopico.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginaTopico.swift; sourceTree = "<group>"; };
@@ -75,11 +83,20 @@
 		341A68A52939240700C4D909 /* mapas_testando */ = {
 			isa = PBXGroup;
 			children = (
-				341A68A32939212E00C4D909 /* little map.swift */,
+				341A68A32939212E00C4D909 /* littlemap.swift */,
 				341A68A129391FA700C4D909 /* litlleimage.swift */,
 				341A689F2939190700C4D909 /* landmarks.swift */,
 			);
 			path = mapas_testando;
+			sourceTree = "<group>";
+		};
+		341A68AC293943D500C4D909 /* Modelos */ = {
+			isa = PBXGroup;
+			children = (
+				341A68AA29393FB800C4D909 /* model.swift */,
+				341A68A82939364200C4D909 /* Landmark.swift */,
+			);
+			path = Modelos;
 			sourceTree = "<group>";
 		};
 		8633D5132926D42D005FD4D6 /* Topicos */ = {
@@ -108,6 +125,8 @@
 		8674580829086E8E0041C0B1 = {
 			isa = PBXGroup;
 			children = (
+				341A68AD2939447F00C4D909 /* LandmarkRow.swift */,
+				341A68AC293943D500C4D909 /* Modelos */,
 				341A68A52939240700C4D909 /* mapas_testando */,
 				8674581329086E8E0041C0B1 /* PetsCugara */,
 				8674581229086E8E0041C0B1 /* Products */,
@@ -140,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				8674581B29086E8F0041C0B1 /* Preview Assets.xcassets */,
+				341A68A6293935E400C4D909 /* landmarkData.json */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -230,6 +250,7 @@
 				8674581C29086E8F0041C0B1 /* Preview Assets.xcassets in Resources */,
 				62B187D32926B1A1002A3AF2 /* LaunchScreen.storyboard in Resources */,
 				8674581929086E8F0041C0B1 /* Assets.xcassets in Resources */,
+				341A68A7293935E400C4D909 /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,7 +269,7 @@
 				86600E5E2938E0DA00ADD9AB /* Hospitais24h.swift in Sources */,
 				341A68A02939190700C4D909 /* landmarks.swift in Sources */,
 				8674581529086E8E0041C0B1 /* PetsCugaraApp.swift in Sources */,
-				341A68A42939212E00C4D909 /* little map.swift in Sources */,
+				341A68A42939212E00C4D909 /* littlemap.swift in Sources */,
 				341A68A229391FA700C4D909 /* litlleimage.swift in Sources */,
 				863E715929313DD400FA6D76 /* Alimentacao.swift in Sources */,
 				863E715B29313DFA00FA6D76 /* Vacinacao.swift in Sources */,
@@ -259,6 +280,9 @@
 				8674582429086FA50041C0B1 /* FirstPage.swift in Sources */,
 				8674582629086FB30041C0B1 /* HomePage.swift in Sources */,
 				86527DDE2939185E0024B660 /* FocusView.swift in Sources */,
+				341A68AB29393FB800C4D909 /* model.swift in Sources */,
+				341A68AE2939447F00C4D909 /* LandmarkRow.swift in Sources */,
+				341A68A92939364200C4D909 /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

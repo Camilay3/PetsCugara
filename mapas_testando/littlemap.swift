@@ -8,7 +8,7 @@
 import SwiftUI
 import MapKit
 
-struct little_map: View {
+struct littlemap: View {
     @State private var region = MKCoordinateRegion(
         center:  CLLocationCoordinate2D(latitude: -3.754977987023614, longitude: -38.533526688048376),
         span: MKCoordinateSpan(latitudeDelta: 0.00001, longitudeDelta: 0.00015)
@@ -21,6 +21,6 @@ struct little_map: View {
 
 struct little_map_Previews: PreviewProvider {
     static var previews: some View {
-        little_map()
+        littlemap()
     }
 }
