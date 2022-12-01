@@ -28,7 +28,12 @@ struct Hospitais24h: View {
                         .font(.custom("Pulang", size: 35))
                         .foregroundColor(Color("Cterciaria"))
                         .position(x: 190, y: 50)
+                        Text(" Insira sua localização para calcular hospitais próximos: ")
+                            .padding(.vertical, 9)
+                            .padding(.horizontal, 80)
+                        
                     }
+                    Spacer()
                 }
             }
         }
