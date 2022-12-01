@@ -9,34 +9,31 @@ import SwiftUI
 
 struct HomePage: View {
 	var body: some View {
-        NavigationView{
+		NavigationView{
 			GeometryReader{ proxy in
 				ZStack{
 					Color("Cprimaria").ignoresSafeArea()
 					VStack{
-						ZStack{
+						HStack{
+							Spacer()
 							Text("Tópicos")
 								.bold()
 								.font(.custom("Pulang", size: 45))
 								.multilineTextAlignment(.center)
 								.foregroundColor(Color("Cterciaria"))
-								.frame(width: 400, height: 227, alignment: .center)
-								.position(x: 370/2, y: 90/2)
 							
-							VStack{
-								HStack{
-									Spacer()
-                                    NavigationLink(destination: Emergency().navigationBarBackButtonHidden(true), label: {
-                                        Image(systemName: "exclamationmark.triangle.fill")
-                                            .resizable()
-                                            .scaledToFit()
-                                            .frame(width: 50, height: 50)
-                                            .padding(25)
-                                            .foregroundColor(Color("Csecundaria"))
-                                    })
-								}
-								Spacer()
-							}
+							NavigationLink(destination: TutOne().navigationBarBackButtonHidden(true), label: {
+								Image(systemName: "questionmark.circle")
+									.resizable()
+									.scaledToFit()
+									.frame(width: 50, height: 50)
+									.foregroundColor(Color("Csecundaria"))
+									.padding(.vertical, 14/10)
+									.padding(.horizontal, 340/10)
+							})
+						}
+						ScrollView{
+							
 							VStack{
 								HStack{
 									NavigationLink(destination: PaginaTopico(topico: .banho).navigationBarBackButtonHidden(true), label:{
@@ -109,7 +106,7 @@ struct HomePage: View {
 										}
 										
 									}).padding(29)
-									NavigationLink(destination: Curiosidades().navigationBarBackButtonHidden(true), label:{
+									NavigationLink(destination: PrimeirosSocorros().navigationBarBackButtonHidden(true), label:{
 										VStack{
 											ZStack{
 												Rectangle()
@@ -117,14 +114,15 @@ struct HomePage: View {
 													.frame(width: 120, height: 120)
 													.foregroundColor(.white)
 													.shadow(color: .gray, radius: 10)
-												Image("ponto-de-interrogacao")
+												Image("warning-2")
 													.resizable()
 													.scaledToFit()
 													.frame(width: 75, height: 75)
 													.padding(.vertical, 14/10)
 													.padding(.horizontal, 140/10)
+													.foregroundColor(Color("Csecundaria"))
 											}
-											Text("Curiosidades")
+											Text("Emergência")
 												.bold()
 												.font(.custom("pointfree", size: 18))
 												.foregroundColor(Color("Cterciaria"))
@@ -154,7 +152,7 @@ struct HomePage: View {
 												.foregroundColor(Color("Cterciaria"))
 										}
 									}).padding(29)
-									NavigationLink(destination: PetShop().navigationBarBackButtonHidden(true), label:{
+									NavigationLink(destination: Hospitais24h().navigationBarBackButtonHidden(true), label:{
 										VStack{
 											ZStack{
 												Rectangle()
@@ -169,7 +167,7 @@ struct HomePage: View {
 													.padding(.vertical, 14/10)
 													.padding(.horizontal, 140/10)
 											}
-											Text("Pet Shop")
+											Text("Hospitais 24h")
 												.bold()
 												.font(.custom("pointfree", size: 18))
 												.foregroundColor(Color("Cterciaria"))
@@ -177,17 +175,17 @@ struct HomePage: View {
 										
 									}).padding(29)
 								}
-							}.position(x:200, y: 425)
+							}
 						}
 					}
 				}
 			}
 		}
 	}
-	struct HomePage_Previews: PreviewProvider {
-		static var previews: some View {
-			HomePage()
-		}
-	}
 }
 
+struct HomePage_Previews: PreviewProvider {
+	static var previews: some View {
+		HomePage()
+	}
+}
