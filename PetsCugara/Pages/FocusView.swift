@@ -20,6 +20,7 @@ struct FocusView: View {
                         width: focusedFrame.width,
                         height: focusedFrame.height
                     )
+					.cornerRadius(20)
                     .blendMode(.destinationOut)
                     .offset(
                         x: focusedFrame.origin.x,

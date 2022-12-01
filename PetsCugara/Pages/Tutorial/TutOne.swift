@@ -27,25 +27,7 @@ struct TutOne: View {
 								.frame(width: 400, height: 227, alignment: .center)
 								.position(x: 370/2, y: 90/2)
 							
-							VStack{
-								HStack{
-									Spacer()
-									NavigationLink(destination: TutOne().navigationBarBackButtonHidden(true), label: {
-										Image(systemName: "questionmark.circle")
-											.resizable()
-											.scaledToFit()
-											.frame(width: 50, height: 50)
-											.padding(25)
-											.foregroundColor(Color("Csecundaria"))
-											.padding(.vertical, 14/10)
-											.padding(.horizontal, 240/10)
-										
-									})
-								}
-								Spacer()
-							}
 							ScrollView{
-								
 								VStack{
 									HStack{
 										NavigationLink(destination: PaginaTopico(topico: .banho).navigationBarBackButtonHidden(true), label:{
@@ -73,7 +55,7 @@ struct TutOne: View {
 										}).padding(29)
 											.saveFrame(in: $frames, name: "banho")
 										
-										NavigationLink(destination: Alimentacao().navigationBarBackButtonHidden(true), label:{
+										Button(action:{}, label:{
 											VStack{
 												ZStack{
 													Rectangle()
@@ -98,7 +80,7 @@ struct TutOne: View {
 										.padding(29)
 									}
 									HStack{
-										NavigationLink(destination: Vacinacao().navigationBarBackButtonHidden(true), label: {
+										Button(action:{}, label: {
 											VStack{
 												ZStack{
 													Rectangle()
@@ -120,7 +102,7 @@ struct TutOne: View {
 											}
 											
 										}).padding(29)
-										NavigationLink(destination: PrimeirosSocorros().navigationBarBackButtonHidden(true), label:{
+										Button(action:{}, label:{
 											VStack{
 												ZStack{
 													Rectangle()
@@ -145,7 +127,7 @@ struct TutOne: View {
 										}).padding(29)
 									}
 									HStack{
-										NavigationLink(destination: Passeio().navigationBarBackButtonHidden(true), label:{
+										Button(action:{}, label:{
 											VStack{
 												ZStack{
 													Rectangle()
@@ -166,7 +148,7 @@ struct TutOne: View {
 													.foregroundColor(Color("Cterciaria"))
 											}
 										}).padding(29)
-										NavigationLink(destination: Hospitais24h().navigationBarBackButtonHidden(true), label:{
+										Button(action:{}, label:{
 											VStack{
 												ZStack{
 													Rectangle()
@@ -193,6 +175,9 @@ struct TutOne: View {
 							}
 						}
 					}
+					.overlay {
+						FocusView(frame: frames[focusedFrameName])
+					}
 					
 					VStack{
 						Spacer()
@@ -202,19 +187,18 @@ struct TutOne: View {
 							.font(.custom("Pointfree", size: 17))
 							.background(Color(.white))
 							.cornerRadius(40)
+							.saveFrame(in: $frames, name: "banho")
 						
 						Image("lina")
 							.scaleEffect(1.2)
 							.padding(.vertical, 10)
+							
 					}.padding(.horizontal, 20)
-//						.saveFrame(in: $frames, name: "banho")
+						
 					
 					
 				}
 			}
-		}
-		.overlay {
-			FocusView(frame: frames[focusedFrameName])
 		}
 	}
 }
