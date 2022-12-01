@@ -17,7 +17,6 @@
 		863E715B29313DFA00FA6D76 /* Vacinacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863E715A29313DFA00FA6D76 /* Vacinacao.swift */; };
 		86527DDC293915F40024B660 /* TutTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86527DDB293915F40024B660 /* TutTwo.swift */; };
 		86527DDE2939185E0024B660 /* FocusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86527DDD2939185E0024B660 /* FocusView.swift */; };
-		86527DE0293918D60024B660 /* ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86527DDF293918D60024B660 /* ExampleView.swift */; };
 		86527DE2293928DF0024B660 /* TutThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86527DE1293928DF0024B660 /* TutThree.swift */; };
 		86551692291EC9F800170E28 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		86600E5E2938E0DA00ADD9AB /* Hospitais24h.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86600E5D2938E0DA00ADD9AB /* Hospitais24h.swift */; };
@@ -46,7 +45,6 @@
 		8646293529158B1F001FE1B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86527DDB293915F40024B660 /* TutTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutTwo.swift; sourceTree = "<group>"; };
 		86527DDD2939185E0024B660 /* FocusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusView.swift; sourceTree = "<group>"; };
-		86527DDF293918D60024B660 /* ExampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleView.swift; sourceTree = "<group>"; };
 		86527DE1293928DF0024B660 /* TutThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutThree.swift; sourceTree = "<group>"; };
 		86600E5D2938E0DA00ADD9AB /* Hospitais24h.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hospitais24h.swift; sourceTree = "<group>"; };
 		86600E5F2938E0F800ADD9AB /* PrimeirosSocorros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeirosSocorros.swift; sourceTree = "<group>"; };
@@ -155,7 +153,6 @@
 				8674582329086FA50041C0B1 /* FirstPage.swift */,
 				8674582529086FB30041C0B1 /* HomePage.swift */,
 				86527DDD2939185E0024B660 /* FocusView.swift */,
-				86527DDF293918D60024B660 /* ExampleView.swift */,
 				62B187D22926B1A1002A3AF2 /* LaunchScreen.storyboard */,
 			);
 			path = Pages;
@@ -246,7 +243,6 @@
 				866DD62229142C0700DB4835 /* TutOne.swift in Sources */,
 				86990C8E292D5DD7005DC4C6 /* Textos.swift in Sources */,
 				86551692291EC9F800170E28 /* (null) in Sources */,
-				86527DE0293918D60024B660 /* ExampleView.swift in Sources */,
 				8674581729086E8E0041C0B1 /* ContentView.swift in Sources */,
 				86600E5E2938E0DA00ADD9AB /* Hospitais24h.swift in Sources */,
 				341A68A02939190700C4D909 /* landmarks.swift in Sources */,

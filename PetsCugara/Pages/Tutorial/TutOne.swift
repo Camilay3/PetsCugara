@@ -156,7 +156,7 @@ struct TutOne: View {
 													.frame(width: 120, height: 120)
 													.foregroundColor(.white)
 													.shadow(color: .gray, radius: 10)
-												Image("pet-shop-7")
+												Image("hospital")
 													.resizable()
 													.scaledToFit()
 													.frame(width: 80, height: 80)
