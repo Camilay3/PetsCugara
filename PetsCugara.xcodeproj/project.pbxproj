@@ -95,6 +95,7 @@
 			children = (
 				341A68AA29393FB800C4D909 /* model.swift */,
 				341A68A82939364200C4D909 /* Landmark.swift */,
+				341A68A6293935E400C4D909 /* landmarkData.json */,
 			);
 			path = Modelos;
 			sourceTree = "<group>";
@@ -160,7 +161,6 @@
 			isa = PBXGroup;
 			children = (
 				8674581B29086E8F0041C0B1 /* Preview Assets.xcassets */,
-				341A68A6293935E400C4D909 /* landmarkData.json */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";

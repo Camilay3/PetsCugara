@@ -12,6 +12,7 @@ struct LandmarkRow: View {
     
     var body: some View {
         HStack{
+            //landmark.image
             Image("etave")
                 .resizable()
                 .frame(width: 50, height: 50)
@@ -23,6 +24,6 @@ struct LandmarkRow: View {
 
 struct LandmarkRow_Previews: PreviewProvider {
     static var previews: some View {
-        LandmarkRow(landmark: landmarks2[1])
+        LandmarkRow(landmark: landmarks2[0])
     }
 }
