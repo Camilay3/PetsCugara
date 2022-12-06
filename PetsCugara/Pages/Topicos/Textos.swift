@@ -2,7 +2,7 @@
 //  Textos.swift
 //  PetsCugara
 //
-//  Created by Camila Azevedo do Vale Santiago on 22/11/22.
+//  Created by Viviane Rodrigues Nogueira on 22/11/22.
 //
 
 import SwiftUI
