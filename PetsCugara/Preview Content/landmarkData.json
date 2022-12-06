@@ -1,13 +1,12 @@
 [
     {
-        "name": "Turtle Rock",
-        "category": "Rivers",
-        "city": "Twentynine Palms",
-        "state": "California",
-        "id": 1001,
+        "name": "Centro de Atenção a Saúde Animal - Casa",
+        "city": "Fortaleza",
+        "state": "Ceará",
+        "address": "Rua Trajano Alves de Aguiar, 156"
         "isFeatured": true,
         "isFavorite": true,
-        "park": "Joshua Tree National Park",
+        "bairro": "Cidade dos Funcionários",
         "coordinates": {
             "longitude": -116.166868,
             "latitude": 34.011286

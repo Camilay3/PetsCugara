@@ -11,7 +11,6 @@ import CoreLocation
 
 struct Landmark: Hashable, Codable {
     var name: String
-    var category: String
     var city: String
     var state: String
     private var imageName: String
