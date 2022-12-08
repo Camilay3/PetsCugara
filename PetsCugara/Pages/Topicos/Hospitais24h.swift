@@ -11,42 +11,7 @@ struct Hospitais24h: View {
 	@Environment(\.dismiss) var dismiss
 	
 	var body: some View {
-		NavigationView{
-			ZStack{
-				Color("Cprimaria").ignoresSafeArea()
-				
-				VStack{
-					HStack{
-						Image(systemName: "pawprint.fill")
-						Text("Hospitais 24h")
-						Spacer()
-						Button {
-							dismiss()
-						} label: {
-							Image(systemName: "house.fill")
-								.foregroundColor(Color("Csecundaria"))
-						}
-					}
-					.padding(20)
-					.font(.custom("Pulang", size: 35))
-					.foregroundColor(Color("Cterciaria"))
-					
-					
-						VStack{
-							Text("Mapa aqui")
-							
-							Spacer()
-							
-							ScrollView {
-								Text("Lista aqui")
-							}
-							
-							Spacer()
-						}
-						.font(.custom("pointfree", size: 16)).padding(30)
-				}
-			}
-		}
+		PaginaTopico(topico: .hospitais24h)
 	}
 }
 
