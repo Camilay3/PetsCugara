@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3415E22029425B4800BE12FC /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3415E21F29425B4800BE12FC /* LandmarkList.swift */; };
+		3415E22229425D5500BE12FC /* Landmarkdetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3415E22129425D5500BE12FC /* Landmarkdetail.swift */; };
 		341A68A02939190700C4D909 /* landmarks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341A689F2939190700C4D909 /* landmarks.swift */; };
 		341A68A229391FA700C4D909 /* litlleimage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341A68A129391FA700C4D909 /* litlleimage.swift */; };
 		341A68A42939212E00C4D909 /* littlemap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341A68A32939212E00C4D909 /* littlemap.swift */; };
@@ -38,6 +40,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3415E21F29425B4800BE12FC /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		3415E22129425D5500BE12FC /* Landmarkdetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmarkdetail.swift; sourceTree = "<group>"; };
 		341A689F2939190700C4D909 /* landmarks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = landmarks.swift; sourceTree = "<group>"; };
 		341A68A129391FA700C4D909 /* litlleimage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = litlleimage.swift; sourceTree = "<group>"; };
 		341A68A32939212E00C4D909 /* littlemap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = littlemap.swift; sourceTree = "<group>"; };
@@ -127,6 +131,8 @@
 		8674580829086E8E0041C0B1 = {
 			isa = PBXGroup;
 			children = (
+				3415E22129425D5500BE12FC /* Landmarkdetail.swift */,
+				3415E21F29425B4800BE12FC /* LandmarkList.swift */,
 				341A68AD2939447F00C4D909 /* LandmarkRow.swift */,
 				341A68AC293943D500C4D909 /* Modelos */,
 				341A68A52939240700C4D909 /* mapas_testando */,
@@ -265,6 +271,8 @@
 				86990C8E292D5DD7005DC4C6 /* Textos.swift in Sources */,
 				86551692291EC9F800170E28 /* (null) in Sources */,
 				8674581729086E8E0041C0B1 /* ContentView.swift in Sources */,
+				3415E22229425D5500BE12FC /* Landmarkdetail.swift in Sources */,
+				3415E22029425B4800BE12FC /* LandmarkList.swift in Sources */,
 				86600E5E2938E0DA00ADD9AB /* Hospitais24h.swift in Sources */,
 				341A68A02939190700C4D909 /* landmarks.swift in Sources */,
 				8674581529086E8E0041C0B1 /* PetsCugaraApp.swift in Sources */,

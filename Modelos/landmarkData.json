@@ -1,19 +1,164 @@
 [
     {
-        "name": "Centro de Atenção a Saúde Animal - Casa",
+        "name": "Centro de Atenção a Saúde Animal",
         "city": "Fortaleza",
         "state": "Ceará",
         "address": "Rua Trajano Alves de Aguiar, 156",
         "cep": "60822-345",
-        "id": 1001,
+        "id": 1,
         "isFeatured": true,
         "isFavorite": true,
         "bairro": "Cidade dos Funcionários",
+        "imageName": "casap",
         "coordinates": {
-            "longitude": -116.166868,
-            "latitude": 34.011286
-        },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
-        "imageName": "etave"
+            "longitude": -3.793194458988634,
+            "latitude": -38.49291751947572
+        }
+    },
+    {
+        "name": "Plantão Pet - Hospital Veterinário 24 horas",
+        "city": "Fortaleza",
+        "state": "Ceará",
+        "address": "Av. Edilson Brasil Soares, 2183",
+        "cep": "85263-000",
+        "id": 2,
+        "isFeatured": true,
+        "isFavorite": true,
+        "bairro": "Edson Queiroz",
+        "imageName": "plantao",
+        "coordinates": {
+            "longitude": -3.7872138456064053,
+            "latitude": -38.466525275617066
+        }
+        
+    },
+    {
+        "name": "HGV - Clínica Veterinária",
+        "city": "Fortaleza",
+        "state": "Ceará",
+        "address": "R. Rio da Prata, 32",
+        "cep": "60832-402",
+        "id": 3,
+        "isFeatured": true,
+        "isFavorite": true,
+        "bairro": "Lagoa Redonda",
+        "imageName": "hgv",
+        "coordinates": {
+            "longitude": -3.8079990465456426,
+            "latitude": -38.46352356829797
+        }
+        
+    },
+    {
+        "name": "Hospital Veterinário Popular",
+        "city": "Fortaleza",
+        "state": "Ceará",
+        "address": "R. Prof. Mário Rocha, 75",
+        "cep": "60120-200",
+        "id": 4,
+        "isFeatured": true,
+        "isFavorite": true,
+        "bairro": "Joaquim Távora",
+        "imageName": "popular3",
+        "coordinates": {
+            "longitude": -3.7514903192255025,
+            "latitude": -38.5155831756189
+        }
+    },
+    {
+        "name": "Vetclinic",
+        "city": "Fortaleza",
+        "state": "Ceará",
+        "address": "Av. Américo Barreira, 6360",
+        "cep": "60440-240",
+        "id": 5,
+        "isFeatured": true,
+        "isFavorite": true,
+        "bairro": "Parangaba",
+        "imageName": "vetclinic",
+        "coordinates": {
+            "longitude": -3.76668455198543,
+            "latitude": -38.56931797379578
+        }
+    },
+    {
+        "name": "Hospital Veterinário Univet",
+        "city": "Fortaleza",
+        "state": "Ceará",
+        "address": "Av. Washington Soares, 655",
+        "cep": "60810-000",
+        "id": 6,
+        "isFeatured": true,
+        "isFavorite": true,
+        "bairro": "Edson Queiroz",
+        "imageName": "univet",
+        "coordinates": {
+            "longitude": -3.7582043416882667,
+            "latitude": -38.48541465356138
+        }
+    },
+    {
+        "name": "Vetdoctor Hospital Veterinário",
+        "city": "Fortaleza",
+        "state": "Ceará",
+        "address": "Av. Washington Soares, 4294 B",
+        "cep": "60810-350",
+        "id": 7,
+        "isFeatured": true,
+        "isFavorite": true,
+        "bairro": "Parque Manibura",
+        "imageName": "vetdoctor",
+        "coordinates": {
+            "longitude": -3.7941126802060254,
+            "latitude": -38.4802265872894
+        }
+    },
+    {
+        "name": "IEVET - Instituto de Especialidades Veterinária",
+        "city": "Fortaleza",
+        "state": "Ceará",
+        "address": "Av. Heráclito Graça, 1570",
+        "cep": "60810-350",
+        "id": 8,
+        "isFeatured": true,
+        "isFavorite": true,
+        "bairro": "Aldeota",
+        "imageName": "ievet",
+        "coordinates": {
+            "longitude": -3.7382068011561924,
+            "latitude": -38.510929216124964
+        }
+    },
+    {
+        "name": "Hospital Veterinário Amadeu Marinho",
+        "city": "Fortaleza",
+        "state": "Ceará",
+        "address": "R. Maria Almeida, 50",
+        "cep": "60871-472",
+        "id": 9,
+        "isFeatured": true,
+        "isFavorite": true,
+        "bairro": "Messejana",
+        "imageName": "hospvam",
+        "coordinates": {
+            "longitude": -3.837491120735821,
+            "latitude": -38.483335085441105
+        }
+    },
+    {
+        "name": "Cinvet",
+        "city": "Fortaleza",
+        "state": "Ceará",
+        "address": "R. Dr. Gilberto Studart, 800",
+        "cep": "60192-105",
+        "id": 10,
+        "isFeatured": true,
+        "isFavorite": true,
+        "bairro": "Cocó",
+        "imageName": "cinvet",
+        "coordinates": {
+            "longitude": -3.7434890487106793,
+            "latitude": -38.48125194496047
+        }
     }
 ]

@@ -8,10 +8,12 @@
 import SwiftUI
 
 struct litlleimage: View {
+    var image: Image
     var body: some View {
-        Image("etave")
+        image
             .resizable()
-            .scaledToFit()
+            .scaledToFill()
+            .frame(width: 320, height: 320)
             .clipShape(Circle())
             .overlay{
                 Circle().stroke(.gray, lineWidth: 4)
@@ -22,6 +24,6 @@ struct litlleimage: View {
 
 struct litlleimage_Previews: PreviewProvider {
     static var previews: some View {
-        litlleimage()
+        litlleimage(image: Image("etave"))
     }
 }

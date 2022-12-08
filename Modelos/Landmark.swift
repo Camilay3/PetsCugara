@@ -9,14 +9,14 @@ import Foundation
 import SwiftUI
 import CoreLocation
 
-struct Landmark: Hashable, Codable {
+struct Landmark: Hashable, Codable, Identifiable {
     var id: Int
     var name: String
     var city: String
     var state: String
-    var cep: String?
-    var address: String?
-    var bairro: String?
+    var cep: String
+    var address: String
+    var bairro: String
     private var imageName: String //silversalmoncreek
     var image: Image {
         Image(imageName)

@@ -9,10 +9,17 @@ import SwiftUI
 import MapKit
 
 struct littlemap: View {
-    @State private var region = MKCoordinateRegion(
-        center:  CLLocationCoordinate2D(latitude: -3.754977987023614, longitude: -38.533526688048376),
-        span: MKCoordinateSpan(latitudeDelta: 0.00001, longitudeDelta: 0.00015)
+       
+    @State private var region: MKCoordinateRegion
+    
+    internal init(coordinate: CLLocationCoordinate2D) {
+        let region = MKCoordinateRegion(
+            center: coordinate,
+            span: MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1)
         )
+        self._region = .init(initialValue: region)
+    }
+    
     
     var body: some View {
         Map(coordinateRegion: $region)
@@ -21,6 +28,6 @@ struct littlemap: View {
 
 struct little_map_Previews: PreviewProvider {
     static var previews: some View {
-        littlemap()
+        littlemap(coordinate: CLLocationCoordinate2D(latitude: -3.787866916281701, longitude: -38.466493046808544))
     }
 }
