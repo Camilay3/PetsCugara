@@ -31,7 +31,7 @@ struct FirstPage: View {
 								.rotation3DEffect(.degrees(180), axis: (x: 0, y: 1, z: 0))
 								.padding(5)
 							
-							Text("- Bem vindo(a) ao Pets Cugara! Meu nome é Lina e vou ser sua guia! Gostaria de acessar o tutorial do nosso aplicativo?")
+							Text("- Bem vindo(a) ao Pets Cugara! Meu nome é Lina e vou ser sua guia! Gostaria de acessar o tutorial do aplicativo?")
 								.foregroundColor(Color("preto"))
 								.font(.custom("pointfree", size: 18))
 						}
