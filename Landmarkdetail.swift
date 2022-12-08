@@ -20,7 +20,7 @@ struct Landmarkdetail: View {
             VStack(alignment: .leading){
                 Text(landmark.name)
                     .font(.custom("Pulang", size: 30))
-                    .foregroundColor(.green)
+                    .foregroundColor(Color("Csecundaria"))
                 Divider()
                 Text(landmark.address)
                     .font(.custom("Pulang", size: 20))

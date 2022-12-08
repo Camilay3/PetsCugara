@@ -9,15 +9,20 @@ import SwiftUI
 
 struct LandmarkList: View {
     var body: some View {
-        NavigationView{
-            List(landmarks2) { landmark in
-                NavigationLink{
-                    Landmarkdetail(landmark: landmark)
-                } label:{
-                    LandmarkRow(landmark: landmark)
+        NavigationView {
+            ZStack{
+                Color("Cprimaria")
+                    .ignoresSafeArea()
+                List(landmarks2) { landmark in
+                    NavigationLink{
+                        Landmarkdetail(landmark: landmark)
+                    } label:{
+                        LandmarkRow(landmark: landmark)
+                    }
                 }
+                .navigationTitle("Hospitais 24h")
+                .scrollContentBackground(.hidden)
             }
-            .navigationTitle("Hospitais 24 horas")
         }
     }
 }

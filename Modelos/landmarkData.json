@@ -11,8 +11,8 @@
         "bairro": "Cidade dos Funcionários",
         "imageName": "casap",
         "coordinates": {
-            "longitude": -3.793194458988634,
-            "latitude": -38.49291751947572
+            "latitude": -3.793194458988634,
+            "longitude": -38.49291751947572
         }
     },
     {
@@ -27,8 +27,8 @@
         "bairro": "Edson Queiroz",
         "imageName": "plantao",
         "coordinates": {
-            "longitude": -3.7872138456064053,
-            "latitude": -38.466525275617066
+            "latitude": -3.7872138456064053,
+            "longitude": -38.466525275617066
         }
         
     },
@@ -44,8 +44,8 @@
         "bairro": "Lagoa Redonda",
         "imageName": "hgv",
         "coordinates": {
-            "longitude": -3.8079990465456426,
-            "latitude": -38.46352356829797
+            "latitude": -3.8079990465456426,
+            "longitude": -38.46352356829797
         }
         
     },
@@ -61,8 +61,8 @@
         "bairro": "Joaquim Távora",
         "imageName": "popular3",
         "coordinates": {
-            "longitude": -3.7514903192255025,
-            "latitude": -38.5155831756189
+            "latitude": -3.7514903192255025,
+            "longitude": -38.5155831756189
         }
     },
     {
@@ -77,8 +77,8 @@
         "bairro": "Parangaba",
         "imageName": "vetclinic",
         "coordinates": {
-            "longitude": -3.76668455198543,
-            "latitude": -38.56931797379578
+            "latitude": -3.76668455198543,
+            "longitude": -38.56931797379578
         }
     },
     {
@@ -93,8 +93,8 @@
         "bairro": "Edson Queiroz",
         "imageName": "univet",
         "coordinates": {
-            "longitude": -3.7582043416882667,
-            "latitude": -38.48541465356138
+            "latitude": -3.7582043416882667,
+            "longitude": -38.48541465356138
         }
     },
     {
@@ -109,8 +109,8 @@
         "bairro": "Parque Manibura",
         "imageName": "vetdoctor",
         "coordinates": {
-            "longitude": -3.7941126802060254,
-            "latitude": -38.4802265872894
+            "latitude": -3.7941126802060254,
+            "longitude": -38.4802265872894
         }
     },
     {
@@ -125,8 +125,8 @@
         "bairro": "Aldeota",
         "imageName": "ievet",
         "coordinates": {
-            "longitude": -3.7382068011561924,
-            "latitude": -38.510929216124964
+            "latitude": -3.7382068011561924,
+            "longitude": -38.510929216124964
         }
     },
     {
@@ -141,8 +141,8 @@
         "bairro": "Messejana",
         "imageName": "hospvam",
         "coordinates": {
-            "longitude": -3.837491120735821,
-            "latitude": -38.483335085441105
+            "latitude": -3.837491120735821,
+            "longitude": -38.483335085441105
         }
     },
     {
@@ -157,8 +157,8 @@
         "bairro": "Cocó",
         "imageName": "cinvet",
         "coordinates": {
-            "longitude": -3.7434890487106793,
-            "latitude": -38.48125194496047
+            "latitude": -3.7434890487106793,
+            "longitude": -38.48125194496047
         }
     }
 ]
