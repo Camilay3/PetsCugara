@@ -15,7 +15,7 @@ struct littlemap: View {
     internal init(coordinate: CLLocationCoordinate2D) {
         let region = MKCoordinateRegion(
             center: coordinate,
-            span: MKCoordinateSpan(latitudeDelta: 0.0015, longitudeDelta: 0.0015)
+            span: MKCoordinateSpan(latitudeDelta: 0.001, longitudeDelta: 0.001)
         )
         self._region = .init(initialValue: region)
     }
