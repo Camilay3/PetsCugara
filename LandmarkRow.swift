@@ -19,7 +19,7 @@ struct LandmarkRow: View {
                 .overlay{
                     Circle().stroke(.white, lineWidth: 2)
                 }
-                .shadow(radius: 7)
+                .shadow(radius: 3)
             Text(landmark.name)
             Spacer()
         }
