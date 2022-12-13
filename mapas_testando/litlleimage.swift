@@ -16,7 +16,7 @@ struct litlleimage: View {
             .frame(width: 320, height: 320)
             .clipShape(Circle())
             .overlay{
-                Circle().stroke(.gray, lineWidth: 4)
+                Circle().stroke(.white, lineWidth: 4)
             }
             .shadow(radius: 7)
     }
