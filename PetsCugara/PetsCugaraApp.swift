@@ -13,9 +13,7 @@ import SwiftUI
 struct PetsCugaraApp: App {
     var body: some Scene {
         WindowGroup {
-            //ContentView()
-//            LandmarkRow(landmark: landmarks2[1])
-            LandmarkList()
+            ContentView()
         }
     }
 }
