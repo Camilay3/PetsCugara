@@ -15,6 +15,7 @@ struct Landmarkdetail: View {
                 littlemap(coordinate: landmark.locationCoordinate, name: landmark.name, image: landmark.imageName)
                     .ignoresSafeArea(edges: .top)
                     .frame(height: 300)
+					.shadow(radius: 7)
                 litlleimage(image: landmark.image)
                     .offset(y: -130)
                     .padding(.bottom, -130)
