@@ -10,7 +10,7 @@ import SwiftUI
 struct Landmarkdetail: View {
     var landmark: Landmark
     var body: some View {
-        ScrollView{
+        ZStack{
             VStack {
                 littlemap(coordinate: landmark.locationCoordinate, name: landmark.name, image: landmark.imageName)
                     .ignoresSafeArea(edges: .top)
@@ -21,7 +21,7 @@ struct Landmarkdetail: View {
                 VStack(alignment: .leading){
                     Text(landmark.name)
                         .font(.custom("Pulang", size: 30))
-                        .foregroundColor(Color("Csecundaria"))
+						.foregroundColor(Color.black)
                     Divider()
                     Text(landmark.address)
                         .font(.custom("Pulang", size: 20))
