@@ -38,12 +38,7 @@ struct littlemap: View {
         let locais = [Localizacao(name: name, coordenada: locationCoordinate, imagem: image)]
    
         Map(coordinateRegion: $region, annotationItems: locais){ local in
-            MapAnnotation(coordinate: locationCoordinate){
-               Image(image)
-                    .resizable()
-                    .frame(width: 50, height: 50)
-                    
-            }
+            MapMarker(coordinate: locationCoordinate)
         }
     }
 }
