@@ -14,7 +14,7 @@ struct Landmarkdetail: View {
             VStack {
                 littlemap(coordinate: landmark.locationCoordinate, name: landmark.name, image: landmark.imageName)
                     .ignoresSafeArea(edges: .top)
-                    .frame(height: 300)
+                    .frame(height: 364)
 					.shadow(radius: 7)
                 litlleimage(image: landmark.image)
                     .offset(y: -130)
@@ -22,7 +22,8 @@ struct Landmarkdetail: View {
                 VStack(alignment: .leading){
                     Text(landmark.name)
                         .font(.custom("Pulang", size: 30))
-						.foregroundColor(Color.black)
+                        .foregroundColor(Color.black)
+                        .lineLimit(nil)
                     Divider()
                     Text(landmark.address)
                         .font(.custom("Pulang", size: 20))
