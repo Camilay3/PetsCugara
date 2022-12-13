@@ -132,7 +132,6 @@
 			isa = PBXGroup;
 			children = (
 				3415E22129425D5500BE12FC /* Landmarkdetail.swift */,
-				3415E21F29425B4800BE12FC /* LandmarkList.swift */,
 				341A68AD2939447F00C4D909 /* LandmarkRow.swift */,
 				341A68AC293943D500C4D909 /* Modelos */,
 				341A68A52939240700C4D909 /* mapas_testando */,
@@ -179,6 +178,7 @@
 				8674582329086FA50041C0B1 /* FirstPage.swift */,
 				8674582529086FB30041C0B1 /* HomePage.swift */,
 				86527DDD2939185E0024B660 /* FocusView.swift */,
+				3415E21F29425B4800BE12FC /* LandmarkList.swift */,
 				62B187D22926B1A1002A3AF2 /* LaunchScreen.storyboard */,
 			);
 			path = Pages;

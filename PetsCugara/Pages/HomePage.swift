@@ -152,7 +152,7 @@ struct HomePage: View {
 												.foregroundColor(Color("Cterciaria"))
 										}
 									}).padding(29)
-									NavigationLink(destination: Hospitais24h().navigationBarBackButtonHidden(true), label:{
+									NavigationLink(destination: LandmarkList().navigationBarBackButtonHidden(true), label:{
 										VStack{
 											ZStack{
 												Rectangle()
