@@ -42,6 +42,9 @@ struct Landmarkdetail: View {
                     Text("CEP: " + landmark.cep)
                         .font(.custom("Pulang", size: 20))
                         .foregroundColor(Color("Cterciaria"))
+                    Text("Contato: " + landmark.tele)
+                        .font(.custom("Pulang", size: 20))
+                        .foregroundColor(Color("Cterciaria"))
                 }
                 .padding()
                 Spacer()

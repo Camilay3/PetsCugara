@@ -11,6 +11,7 @@ import CoreLocation
 
 struct Landmark: Hashable, Codable, Identifiable {
     var id: Int
+    var tele: String
     var name: String
     var city: String
     var state: String
