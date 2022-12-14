@@ -1,2 +1,4 @@
 # Pets-Cugara
-Desenvolvimento de App sobre Informações e Curiosidades sobre os animais junto a mitos a fim de minimizar a desinformação acerca do tema.
+Desenvolvimento de app sobre informações e curiosidades sobre os animais a fim de minimizar a desinformação acerca do tema.
+
+<img src="PetsCugara/Assets.xcassets/PetsCugaraPreview.dataset">
