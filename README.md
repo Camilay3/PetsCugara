@@ -1,5 +1,5 @@
-# Pets-Cugara
-Desenvolvimento de app sobre informações e curiosidades sobre os animais a fim de minimizar a desinformação acerca do tema.
+# Pets Cugara
+Nosso objetivo é ajudar os donos de pet com as dificuldades diárias e informar as necessidades dos pets
 
 <p align="center">
   <img width= "470" src="PetsCugara/Assets.xcassets/PetsCugaraPreview.dataset/PetsCugaraPreview.gif">
